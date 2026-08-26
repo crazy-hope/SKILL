@@ -1,0 +1,4 @@
+interface:
+  display_name: "云上宫廷巨构视觉导演"
+  short_description: "生成开放云域、连续巨构与极端尺度的东方仙侠宫廷画面"
+  default_prompt: "使用 $cloud-palace-megastructure-director 将我的场景构想扩展为开放云域中的东方宫廷巨构提示词或直接生成图片。"

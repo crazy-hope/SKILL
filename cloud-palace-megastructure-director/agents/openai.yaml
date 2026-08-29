@@ -1,4 +1,0 @@
-interface:
-  display_name: "云上宫廷巨构视觉导演"
-  short_description: "生成结构可信或超现实奇观优先的东方仙侠云宫巨构"
-  default_prompt: "使用 $cloud-palace-megastructure-director，先按我的参考和要求选择结构可信或超现实主义分支，再扩展为东方云宫巨构提示词或直接生成图片。"

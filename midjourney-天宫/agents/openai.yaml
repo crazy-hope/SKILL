@@ -1,0 +1,6 @@
+interface:
+  display_name: "Midjourney 东方天界巨构"
+  short_description: "编写稳定、空明且具有压迫尺度的东方天界 Midjourney 提示词"
+  default_prompt: "Use $midjourney-celestial-megastructure 根据我已提供的条件锁定六个视觉模块，并先用选项询问所有未指定模块，再生成 Midjourney 提示词。"
+policy:
+  allow_implicit_invocation: true

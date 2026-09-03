@@ -7,7 +7,7 @@
 - 相机位于建筑内部、构件旁或可行走边缘；除非用户明确要求，不使用无依托航拍或地图式俯视。
 - 近景至少一组檐、柱、墙、桥廊、石阶、宫基或崖壁被裁切并继续向画外延伸。
 - 全图只有一组主透视。默认中等广角、低畸变、深景深；不用鱼眼或夸张边缘拉伸。
-- 极小人物完整站在平台、桥面、台阶、廊道、浮台或崖顶，画面高度约 `0.3%–1%`，不悬浮。
+- 极小人物完整站在平台、桥面、台阶、廊道、浮台或崖顶，画面高度约 `0.15%–0.45%`，不悬浮。人物可以位于画面中段的远景承载面上，不必固定在底部。
 
 ## 可复用镜头口令
 
@@ -20,18 +20,32 @@
 | 悬崖侧向压缩 | 相机在崖侧路径或外挑平台，以中长焦沿崖壁观看；层叠檐柱被距离压缩 | 悬崖、峭壁、杨柳、远瀑 |
 | 高台边缘轻俯 | 相机站在高台或浮台边缘，只轻俯下方云谷；近景台面保留物理依托 | 草原、云梯、浮山、云海 |
 | 天梯贴地仰望 | 相机贴近第一段可行走阶面低位仰望；台阶向单一消失点上升并进入巨构 | 天梯、云梯、石梯、布帘 |
+| 长桥中央前望 | 相机站在悬空长桥中央，沿栏杆与桥面望向远宫；桥体和两侧云海共同展开 | 引导线、对称、留白 |
+| 回廊转角回望 | 相机位于回廊转角，越过近景檐柱回望来路与层叠宫殿 | 重复、偏心、框景 |
+| 巨门侧缝窥望 | 相机藏在半开的巨大门扇后，通过狭长承重开口窥见天城 | 框景、偏心、神秘氛围 |
+| 桥腹下层仰穿 | 相机站在天桥下方的低层栈台，仰望桥腹与压顶宫殿 | 对角线、引导线、巨构压迫 |
+| 水帘后隔景 | 相机位于有遮蔽的廊道内，隔着半透明水帘观看远方宫殿 | 框景、留白、水帘 |
+| 贴水庭院低望 | 相机靠近天界水庭表面，以低视点捕捉倒影与上方宫殿 | 对称、中心、放射 |
+| 云峡栈道前望 | 相机站在宫基与峭壁之间的狭窄栈道，朝云峡深处观看 | 引导线、对角线、悬崖 |
+| 飞檐转角侧探 | 相机站在外廊转角，从巨大飞檐后侧向探望悬空宫城 | 三分、偏心、留白 |
+| 对岸崖台长焦 | 相机位于云海对岸的崖台，以中长焦正面压缩远宫、浮山与云层 | 三分、留白、浮山 |
+| 浮台跨隙对望 | 相机站在一座浮台边缘，越过巨大虚空望向另一座宫殿浮台 | 留白、三角、极小人物 |
+| 殿内帘幕后望 | 相机位于幽暗殿内，隔着布帘或薄纱看向明亮天域 | 框景、层次、薄纱 |
+| 巨柱阵列穿望 | 相机置于连续承重柱阵内部，柱列向唯一消失点递减 | 重复、引导线、冷青柱光 |
+| 台阶半腰回望 | 相机站在宏大石阶中段，回望下层宫群、平台人物与云海 | 对角线、三角、石梯 |
+| 天环内缘侧望 | 相机站在可行走的巨大建筑天环内缘，沿弧线望向中心宫殿 | 放射、中心、天环奇观 |
 
 ## 选择与批量
 
 1. 用户写出物理机位时，优先保留该机位。
 2. 用户点名镜头口令时，展开整句，不只输出口令名称。
-3. 用户只说“随机”时，选择与元素兼容的镜头；不兼容就换镜头，不强塞元素。
+3. 用户只说“随机”时，从全部 `21` 个口令中选择与元素兼容的镜头；不兼容就换镜头，不强塞元素。
 4. 批量任务在兼容口令用尽前不重复；相邻两张必须改变相机所在空间与观看方向。
 
 ## 镜头句模板
 
 ```text
-The camera stands on [walkable architectural surface], at [eye/low/slightly elevated] height, looking [direction]; [foreground structure] is cropped by the frame and continues beyond it, while [single perspective relation] leads toward [open sky domain]. A tiny adult figure stands on [supporting surface], less than one percent of the frame height.
+The camera stands on [walkable architectural surface], at [eye/low/slightly elevated] height, looking [direction]; [foreground structure] is cropped by the frame and continues beyond it, while [single perspective relation] leads toward [open sky domain]. A barely visible pin-sized adult figure, approximately 0.15–0.45 percent of the frame height, stands on [midground or distant supporting surface], dwarfed by the architecture, with no facial detail.
 ```
 
 不要单独输出“24mm、超广角、低机位、电影感”。先建立物理关系，再按需补充 `24–35mm wide-angle feel`、`35–50mm natural perspective` 或 `70–100mm compressed perspective`。

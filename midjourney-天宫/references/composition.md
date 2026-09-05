@@ -1,33 +1,86 @@
 # 构图
 
-构图负责画面内的几何秩序、视觉重量和视线流向；[镜头](camera.md)负责相机的物理站位、高低、朝向、焦段倾向和透视。先决定构图，再选择能实现它的镜头，不能用“低机位、广角、出画裁切”冒充构图类型。
+构图负责画面内的几何秩序、视觉重量、空间层次、遮挡方式、尺度关系和视线流向；[镜头](camera.md)负责把其中涉及机位或焦段的关系落实为可拍摄的物理站位。先决定构图，再选择能实现它的镜头。低机位、鸟瞰、超广角、鱼眼等复合构图可以作为用户明确选择的画面组织方式，但必须同时匹配镜头规则，不能只堆关键词。
 
 ## 选择契约
 
 - 每张图锁定 `1` 个主构图；主构图决定整幅画的最大空间秩序。
 - 最多增加 `1` 个辅助构图；辅助构图只强化焦点或视线，不能建立第二套竞争秩序。
+- `C1` 至 `C12` 是稳定基础构图，旧编号永久保留；`C13` 至 `C41` 是去重后的高级或复合构图。高级构图仍是主构图，不与近义基础构图重复登记。
+- 辅助构图只使用稳定的 `C-F0` 至 `C-F12` 基础关系。选择 `C-F0` 时采用主构图表中的默认辅助关系。
 - 用户没有指定构图且没有要求随机时，默认使用 `留白构图（主）+ 三分构图（辅）`：巨构位于一侧，另一侧保留空明天域。
 - 用户要求“构图随机”时，从与画幅、镜头和元素兼容的主构图中选择；主构图用尽前不重复。
 - 用户给出候选列表并说“随机”时，按不放回方式抽取；用户说“依次、按顺序、第 1 张/第 2 张”等明确顺序时，顺序要求优先，随机只作用于其他未指定维度。
 - 用户明确写出超过两种构图关系时，全部保留可见要求，但只登记一个主构图和一个辅助构图；其余要求转写为局部元素路径、主体位置或框架关系，不再增加构图标签。
 - 若同一主体被同时要求居中和偏心/三分，或同一路径被同时要求严格直线和 S 形，属于真实矛盾，需要询问用户。不同对象分别承担这些关系时不冲突。
 
-## 十二种构图
+## 四十一种去重构图
 
-| 构图 | 画面关系 | 情绪 | 兼容镜头与元素 | 英文提示关系 |
-|---|---|---|---|---|
-| 中心构图 | 唯一主体或主轴放在画面几何中心；两侧不必完全相同 | 庄严、稳定 | 天门轴向正望、天梯贴地仰望；主宫、石梯、浮台 | `the primary palace axis occupies the exact visual center` |
-| 对称构图 | 中轴两侧的建筑体量、间距和视觉重量镜像或近似镜像 | 神圣、宏伟 | 天门轴向正望、深檐内平视；宫门、柱廊、祭台 | `strict bilateral architectural symmetry around one central axis` |
-| 三分构图 | 主体落在左或右三分之一，开放天域位于相对一侧 | 自然、舒展 | 粗柱旁斜望、悬崖侧向压缩；主宫、古松、瀑布 | `the megastructure occupies the left/right third, balanced by open sky` |
-| 对角线构图 | 主结构、桥廊、崖体或阶梯沿一条斜轴穿过画面 | 动感、气势 | 宫基下方仰视、天梯贴地仰望；桥、峭壁、天梯 | `one dominant diagonal structural axis runs from lower left to upper right` |
-| 三角构图 | 三个不同等级的锚点构成稳定三角形，主锚点最强 | 稳定、雄伟 | 高台边缘轻俯、深檐内平视；主宫、人物、古松/浮山 | `the palace, platform figure and distant anchor form a stable triangular hierarchy` |
-| S 形构图 | 一条连续的路、河、水带或云带呈单一 S 形通向远方 | 优美、纵深 | 高台边缘轻俯、悬崖侧向压缩；曲桥、河流、云带 | `one continuous S-curve path leads through foreground, middle ground and distance` |
-| 框景构图 | 近景门洞、深檐、柱列或崖口包围并揭示远方主体 | 空间感强 | 深檐内平视、天门轴向正望；门、柱、布帘、崖口 | `cropped foreground architecture forms a structural frame around the distant palace` |
-| 引导线构图 | 路、桥、石梯、柱列或檐线共同指向唯一主体 | 纵深、宏大 | 所有有明确行走面的镜头；桥廊、台阶、柱阵 | `receding walkways and column lines converge toward the primary palace` |
-| 留白构图 | 天空、云海、雾域、水庭或深渊形成大片低信息空间 | 空灵、东方感 | 粗柱旁斜望、高台边缘轻俯；云海、草原、水庭 | `content-bearing empty sky occupies 40–60 percent of the frame` |
-| 偏心构图 | 主体故意离开中心且不严格落在三分线上，由反侧留白平衡 | 高级、神秘 | 粗柱旁斜望、悬崖侧向压缩；巨壁、侧宫、古松 | `the primary mass is deliberately off-center, counterbalanced by quiet negative space` |
-| 重复构图 | 柱、檐、桥廊或宫层按统一节奏重复并向消失点缩减 | 庞大、无穷 | 粗柱旁斜望、深檐内平视；柱廊、斗拱、连续宫层 | `repeated columns and eaves diminish rhythmically toward one vanishing point` |
-| 放射构图 | 桥、阶、柱阵或宫基围绕一个中心汇聚或向外扩展 | 神圣、奇观 | 天门轴向正望、高台边缘轻俯；祭台、天环、放射桥 | `architectural lines radiate around one sacred structural center` |
+### 基础构图 C1–C12
+
+| 编号 | 构图 | 画面关系 | 情绪 | 兼容镜头与元素 | 英文提示关系 |
+|---|---|---|---|---|---|
+| C1 | 留白构图 | 天空、云海、雾域、水庭或深渊形成约 `40%–60%` 的低信息空间 | 空灵、东方感 | 粗柱旁斜望、高台边缘轻俯；云海、草原、水庭 | `content-bearing empty sky occupies 40–60 percent of the frame` |
+| C2 | 框景构图 | 近景门洞、深檐、柱列或崖口包围并揭示远方主体 | 空间感强 | 深檐内平视、天门轴向正望；门、柱、布帘、崖口 | `cropped foreground architecture forms a structural frame around the distant palace` |
+| C3 | 对称构图 | 中轴两侧的建筑体量、间距和视觉重量镜像或近似镜像 | 神圣、宏伟 | 天门轴向正望、深檐内平视；宫门、柱廊、祭台 | `strict bilateral architectural symmetry around one central axis` |
+| C4 | 对角线构图 | 主结构、桥廊、崖体或阶梯沿一条斜轴穿过画面 | 动感、气势 | 宫基下方仰视、天梯贴地仰望；桥、峭壁、天梯 | `one dominant diagonal structural axis runs from lower left to upper right` |
+| C5 | 中心构图 | 唯一主体或主轴放在画面几何中心；两侧不必完全相同 | 庄严、稳定 | 天门轴向正望、天梯贴地仰望；主宫、石梯、浮台 | `the primary palace axis occupies the exact visual center` |
+| C6 | 三分构图 | 主体落在左或右三分之一，开放天域位于相对一侧 | 自然、舒展 | 粗柱旁斜望、悬崖侧向压缩；主宫、古松、瀑布 | `the megastructure occupies the left/right third, balanced by open sky` |
+| C7 | 三角构图 | 三个不同等级的锚点构成稳定三角形，主锚点最强 | 稳定、雄伟 | 高台边缘轻俯、深檐内平视；主宫、人物、古松/浮山 | `the palace, platform figure and distant anchor form a stable triangular hierarchy` |
+| C8 | S 形构图 | 一条连续的路、河、水带或云带呈单一 S 形通向远方 | 优美、纵深 | 高台边缘轻俯、悬崖侧向压缩；曲桥、河流、云带 | `one continuous S-curve path leads through foreground, middle ground and distance` |
+| C9 | 引导线构图 | 路、桥、石梯、柱列或檐线共同指向唯一主体 | 纵深、宏大 | 所有有明确行走面的镜头；桥廊、台阶、柱阵 | `receding walkways and column lines converge toward the primary palace` |
+| C10 | 偏心构图 | 主体故意离开中心且不严格落在三分线上，由反侧留白平衡 | 高级、神秘 | 粗柱旁斜望、悬崖侧向压缩；巨壁、侧宫、古松 | `the primary mass is deliberately off-center, counterbalanced by quiet negative space` |
+| C11 | 重复构图 | 柱、檐、桥廊或宫层按统一节奏重复并向消失点缩减 | 庞大、无穷 | 粗柱旁斜望、深檐内平视；柱廊、斗拱、连续宫层 | `repeated columns and eaves diminish rhythmically toward one vanishing point` |
+| C12 | 放射构图 | 桥、阶、柱阵或宫基围绕一个中心汇聚或向外扩展 | 神圣、奇观 | 天门轴向正望、高台边缘轻俯；祭台、天环、放射桥 | `architectural lines radiate around one sacred structural center` |
+
+### 高级与复合构图 C13–C41
+
+下表已把“一点透视/消失点”“前景遮挡/强遮挡”“截断式/巨物越界”“套娃/多重框景”各合并为一个规范项。它们名称相近且控制同一可见关系，不重复编号。
+
+| 编号 | 构图 | 类别 | 必须写出的可见关系 | 默认辅助 | AI 提示词关键词 |
+|---|---|---|---|---|---|
+| C13 | 黄金分割构图 | 几何 | 主体重心落在明确的黄金分割交点，不只写“偏心” | 留白 | `golden ratio composition` |
+| C14 | L 形构图 | 几何 | 巨构沿相邻两条画面边形成清楚 L 形，空域占据其余区域 | 留白 | `L-shaped composition` |
+| C15 | 一点透视／强消失点构图 | 透视 | 所有主要平行结构向唯一消失点收束，主体位于或紧邻该点 | 中心 | `one-point perspective, strong vanishing point` |
+| C16 | 前中后景构图 | 空间层次 | 裁切近景主体、中景承载面或尺度锚点、远景主视觉节点三层清楚分离 | 三分 | `foreground, midground and background composition` |
+| C17 | 前景遮挡构图 | 遮挡 | 一个有物理来源的近景巨物遮挡约 `30%–70%`，其余开口揭示主体 | 偏心 | `heavy foreground occlusion` |
+| C18 | 肩后构图 OTS | 人物视点 | 相机位于人物侧后方，以肩背轮廓指向远方巨构；人物不遮住主轮廓 | 三分 | `over-the-shoulder composition` |
+| C19 | 隧道／长廊构图 | 空间层次 | 两侧连续构件和顶面形成深长通道，只通向一个远景焦点 | 引导线 | `deep corridor composition` |
+| C20 | 极端尺度对比 | 尺度 | 连续巨构与一个针尖大小的真实落位人物形成至少三级尺度跳跃 | 留白 | `extreme scale contrast, tiny figure` |
+| C21 | 低机位仰视构图 | 机位 | 相机贴近可行走表面向上看，柱、檐或宫基向上压入画面 | 引导线 | `extreme low-angle composition` |
+| C22 | 虫视构图 | 机位 | 相机几乎贴地并大角度仰视，近景基座巨大、顶部远离且不可企及 | 中心 | `worm's-eye-view composition` |
+| C23 | 高机位俯视构图 | 机位 | 相机站在有依托的高处，明显俯看中下方建筑与云域，但仍非高空全景 | 三分 | `high-angle composition` |
+| C24 | 鸟瞰构图 | 机位 | 相机位于高空斜俯整个连续天城，显示整体规模和连接关系 | 三分 | `aerial composition` |
+| C25 | 上帝视角构图 | 机位 | 相机近乎垂直向下，建筑、平台和云隙形成平面几何秩序 | 放射 | `god's-eye-view composition` |
+| C26 | 深渊构图 | 垂直空间 | 可行走边缘与巨构压在画面一侧，下方连续深渊或云峡占据主要纵深 | 对角线 | `vertiginous abyss composition` |
+| C27 | 极端留白构图 | 空间占比 | `80%–95%` 画面为有层次的天空、云海或雾域，巨构仍保留可读尺度 | 偏心 | `extreme negative-space composition` |
+| C28 | 不对称构图 | 视觉重量 | 两侧形状和重量不同，但由空域、明度或远景小锚点获得动态平衡 | 留白 | `asymmetrical composition` |
+| C29 | 截断式／巨物越界构图 | 尺度与边界 | 主巨构在两处以上被画框切断，使主体明显大到无法完整装入画面 | 偏心 | `too massive to fit within the frame` |
+| C30 | 阵列构图 | 秩序 | 同类建筑构件或人物单元按规则网格或队列排列，主次和单一焦点清楚 | 重复 | `monumental array composition` |
+| C31 | 套娃／多重框景构图 | 遮挡与层次 | 至少两层承重开口依次嵌套，门、柱或桥逐层揭示远宫 | 中心 | `multiple nested frames, frame within a frame` |
+| C32 | 圆形构图 | 几何 | 主体或连续建筑环围绕一个清楚圆形轮廓组织，不自动成为发光传送门 | 中心 | `circular composition` |
+| C33 | 超广角构图 | 透视 | 近景构件显著放大、远景快速缩小，边缘保持可控且不自动弯曲 | 引导线 | `ultra-wide-angle composition` |
+| C34 | 极端透视构图 | 透视 | 一条结构从贴近镜头的巨大尺度快速收缩到远景焦点 | 引导线 | `extreme perspective composition` |
+| C35 | 鱼眼式构图 | 透视 | 单一鱼眼曲率弯曲画面边缘和空间线，主体仍保持清楚视觉中心 | 中心 | `fisheye perspective` |
+| C36 | 极端偏置构图 | 几何 | 主体重心被压入一个角落，大片反侧空间承担孤寂和陌生感 | 留白 | `extreme off-center composition` |
+| C37 | 不可能透视构图 | 超现实空间 | 连续建筑遵循一套可见但违反常规空间的连接与重力关系 | 对角线 | `impossible-perspective composition` |
+| C38 | 弯曲空间构图 | 超现实空间 | 地面、桥廊或连续宫城沿一条大曲面向天空卷起 | 引导线 | `curved-space composition` |
+| C39 | 上下颠倒构图 | 超现实空间 | 同一连续建筑系统或上下两个空间围绕明确边界倒置，重力方向可读 | 对称 | `inverted composition` |
+| C40 | 镜像构图 | 反射空间 | 水面或真实镜面形成第二空间，反射轴和实体来源清楚 | 对称 | `mirror composition` |
+| C41 | 层叠构图 | 空间层次 | 多层宫基、檐柱、桥廊和远景节点前后遮叠，并随距离递减反差 | 三分 | `layered composition` |
+
+## 复合构图与镜头边界
+
+- `C18`、`C21` 至 `C26`、`C33` 至 `C35` 同时包含机位或焦段行为。构图编号决定画面效果，`D` 镜头负责给出相机所在空间、朝向、承载面和近景关系；两者必须兼容。
+- `C24 鸟瞰`、`C25 上帝视角`、`C35 鱼眼`、`C37 不可能透视`、`C39 上下颠倒` 只在用户明确选择或明确要求这些语义时使用，不进入默认推荐池。
+- 用户明确选择 `C24` 或 `C25` 时，允许相机离开建筑边缘，分别使用高空斜俯或近垂直俯视；不能再套用 `D22` 的“仅比人物略高、非航拍”限制。
+- 用户明确选择 `C35` 时允许单一可控鱼眼曲率，覆盖默认“禁用鱼眼”，但仍禁止杂乱的多重弯曲和不可读结构。
+- `C18` 会提高人物的画面占比以形成可辨认的肩背轮廓，只覆盖默认的针尖人物尺度，不授权人物正脸特写、性感化或英雄海报。
+- `C27` 明确覆盖常规 `40%–60%` 留白，将开放域提高至 `80%–95%`；巨构仍需清楚可辨且至少一处延伸出画框。
+- `C30` 的阵列必须属于同一建筑工程、仪式队列或统一秩序，不能退化成许多等大的独立小宫殿。
+- `C40` 必须有用户指定或元素模块允许的真实水面/镜面；若 `F4-0` 与镜像来源冲突，进入兼容询问，不擅自添加水体。
+- 选择 `F1-6 无建筑` 时，构图表中的“宫殿、建筑、桥廊、柱列”等示例词不构成自动添加许可；用用户已选的非建筑主体、地形、天界结构或自定义元素承担相同的几何关系。只有确实依赖建筑空间的镜头口令才判为不兼容。
+- 选择 `F2-4 无人物` 时，构图表中的人物示例改由已选小尺度物体、纹理尺度或结构重复承担；`C18 肩后构图` 因物理上依赖人物而不兼容，必须询问或改选。`C20` 可以用人物以外的微小真实尺度锚点完成极端尺度对比。
 
 ## 主辅组合
 
@@ -79,8 +132,8 @@
 
 - 是否能用一句话指出主构图控制的全画面关系？
 - 是否最多一个辅助构图，并明确它服务于哪个焦点？
-- 是否把画幅、低机位、焦段、裁切或深景深误算成构图类型？
+- 选择复合构图时，是否把其中的机位、焦段、裁切或人物关系落实到兼容的 `D` 镜头，而不是只写标签？
 - 构图是否与镜头的真实站位和单一透视兼容？
 - 重复构图是否仍是一座连续巨构，而非独立亭阁堆叠？
-- 留白是否承载天空、云海、水庭或深渊，并保留 `40%–60%` 开放空间？
+- 留白是否承载天空、云海、水庭或深渊？常规留白是否为 `40%–60%`，`C27` 是否明确为 `80%–95%`？
 - 批量任务是否登记主构图，且用尽前没有重复？

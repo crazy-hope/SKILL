@@ -1,0 +1,4 @@
+interface:
+  display_name: "图生视频导演"
+  short_description: "分析图片机位与空间关系，设计贴合画面的运镜，输出简短中英文视频提示词"
+  default_prompt: "使用 $image-to-video-director 分析我提供的图片，选择合适的运镜和元素运动，输出一组简短的中英文图生视频提示词。"

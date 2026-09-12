@@ -1,6 +1,6 @@
 interface:
   display_name: "Midjourney 东方天界巨构"
   short_description: "编写稳定、空明且具有压迫尺度的东方天界 Midjourney 提示词"
-  default_prompt: "Use $midjourney-celestial-megastructure 根据我已提供的条件锁定六个视觉模块，并先用选项询问所有未指定模块，再生成 Midjourney 提示词。"
+  default_prompt: "Use $midjourney-celestial-megastructure 保留我已提供的条件，默认用简洁问卷补问关键项并自动匹配镜头；仙女发型固定为半绾披发，移除其他发型及随机发型，不再询问发型。需要时展开完整问卷，要求图解时提供独立 HTML 图鉴，再生成简洁的中英文 Midjourney 提示词。"
 policy:
   allow_implicit_invocation: true

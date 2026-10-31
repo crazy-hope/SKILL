@@ -1,0 +1,15 @@
+{
+  "historical_files_unchanged": 544,
+  "markdown_files": 12,
+  "local_links": 266,
+  "chapters": 15,
+  "preserved_sections": [
+    8,
+    13
+  ],
+  "model_registry_unchanged": true,
+  "catalog_data_unchanged_except_guidance": true,
+  "v12_sha256": "1aad9fc7dd181bf49f02d0c0d29db0c9b9106acb28c83e313fc51bcff5bd60b2",
+  "status": "passed",
+  "real_model_and_image_tests": "not_run"
+}

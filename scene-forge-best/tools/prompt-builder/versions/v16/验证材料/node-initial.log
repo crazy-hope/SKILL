@@ -1,0 +1,292 @@
+✔ catalog covers thirty-three topics with useful scenes and classified elements (0.568291ms)
+✔ scene recommendations rank traffic and portrait categories without dropping other elements (0.852584ms)
+✔ search matches item or category and handles empty results (0.286333ms)
+✔ search understands legacy topic names and item topic membership (0.301208ms)
+✔ all topics have balanced searchable categories and retain V13 candidates (62.145834ms)
+✖ independent character settings survive normalization backup history and export (3.51275ms)
+✔ new optional attributes remain missing in old records and reject invalid values (0.573208ms)
+✔ provider keys retain their own storage and can be cleared without touching creative data (0.935833ms)
+✔ unreadable credentials and storage failures remain observable (0.176792ms)
+✖ current defaults and empty description survive restore without legacy fields (0.73875ms)
+✖ manual motion and spatial settings survive preview, history and backup (0.157375ms)
+✖ deleting relationship target clears stale relation but retains actor locks (0.060625ms)
+✖ manual controls update independently; clearing elements drops all settings (0.051459ms)
+✔ old formats and old briefs in a new backup are rejected (0.292625ms)
+✖ unknown key data is not exported and relations cannot reference self or unselected objects (0.052167ms)
+✖ gender locks stay attached to separate people through settings, backup and input export (0.977625ms)
+✔ missing gender in current V15 records stays missing and custom gender remains bounded (4.041125ms)
+✔ gender controls are available for identities and custom people but not known objects (0.092958ms)
+✖ open creation defaults and per-element presence (1.002875ms)
+✔ conditional attributes do not promote references and dependencies are explicit (1.050667ms)
+✖ malformed new backups cannot silently lose required semantics (0.3915ms)
+✖ new workspace does not read or overwrite old creative storage (0.1885ms)
+✔ topic guidance describes open intent without old character or size locks (0.22725ms)
+✖ region survives normalization, presets, history and exported input independently of topic (0.488084ms)
+✔ clearing panel 01 clears region with topic without changing other inputs (0.434791ms)
+✖ current V15 history without region stays absent and is not re-labelled as a selected region (0.091125ms)
+✔ invalid or multi-select region values are rejected rather than silently dropped (0.203583ms)
+✔ scene intent and selected idea survive normalize save refresh backup and text export (1.684125ms)
+✔ malformed scenes and old backups are rejected rather than repaired (0.456875ms)
+✖ target provenance survives history and backup without extra secrets (3.228583ms)
+✔ missing provenance is not invented (0.162625ms)
+✔ download includes target and sources for combined or individual schemes (0.100834ms)
+✔ topic guidance preserves cultural boundary while allowing original objects (0.480958ms)
+✖ V15 reads its schema4 store without filling historical missing region or changing provenance (1.040958ms)
+✔ invalid store is surfaced and not overwritten during load (0.114834ms)
+✖ invalid history does not reset current-schema DeepSeek connection or alter protected data (0.127417ms)
+✔ connection saves only provider/model, supersedes workspace settings and works without creative storage (0.583417ms)
+✔ malformed connection is reported independently and storage failure is observable (0.2655ms)
+✖ backup and persisted state whitelist data and exclude credentials at every level (0.08775ms)
+✔ storage failure is thrown for UI to report, never swallowed (0.09775ms)
+✔ download uses saved input and adaptive fences, retains both languages and provenance (0.259042ms)
+✔ actual design survives history, backup and downloads without contaminating inputs (0.586958ms)
+✔ missing or incomplete actual design is rejected without migrating or overwriting the store (0.477833ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 27
+ℹ fail 16
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 128.4535
+
+✖ failing tests:
+
+test at tools/prompt-builder/versions/v16/tests/characters.test.mjs:23:1
+✖ independent character settings survive normalization backup history and export (3.51275ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at Module.readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/characters.test.mjs:28:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:7:1
+✖ current defaults and empty description survive restore without legacy fields (0.73875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  5 !== 4
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:8:30)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5,
+    expected: 4,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:11:1
+✖ manual motion and spatial settings survive preview, history and backup (0.157375ms)
+  Error: 当前工作台仅支持当前输入版本，请重新选择条件；旧输入不兼容。
+      at normalizeBrief (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:23:220)
+      at input (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:6:17)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:12:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:17:1
+✖ deleting relationship target clears stale relation but retains actor locks (0.060625ms)
+  Error: 当前工作台仅支持当前输入版本，请重新选择条件；旧输入不兼容。
+      at normalizeBrief (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:23:220)
+      at input (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:6:17)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:18:31)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:22:1
+✖ manual controls update independently; clearing elements drops all settings (0.051459ms)
+  Error: 当前工作台仅支持当前输入版本，请重新选择条件；旧输入不兼容。
+      at normalizeBrief (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:23:220)
+      at input (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:6:17)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:23:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:31:1
+✖ unknown key data is not exported and relations cannot reference self or unselected objects (0.052167ms)
+  Error: 当前工作台仅支持当前输入版本，请重新选择条件；旧输入不兼容。
+      at normalizeBrief (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:23:220)
+      at input (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:6:17)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:32:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/gender.test.mjs:8:1
+✖ gender locks stay attached to separate people through settings, backup and input export (0.977625ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at Module.readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/gender.test.mjs:13:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:7:1
+✖ open creation defaults and per-element presence (1.002875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  5 !== 4
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:8:25)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5,
+    expected: 4,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:29:1
+✖ malformed new backups cannot silently lose required semantics (0.3915ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:35:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:38:1
+✖ new workspace does not read or overwrite old creative storage (0.1885ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'scene-forge-workspace-v16'
+  - 'scene-forge-workspace-v15'
+                             ^
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/open-creation.test.mjs:39:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'scene-forge-workspace-v16',
+    expected: 'scene-forge-workspace-v15',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/region.test.mjs:7:1
+✖ region survives normalization, presets, history and exported input independently of topic (0.488084ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/region.test.mjs:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/region.test.mjs:26:1
+✖ current V15 history without region stays absent and is not re-labelled as a selected region (0.091125ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/region.test.mjs:29:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/targets.test.mjs:6:1
+✖ target provenance survives history and backup without extra secrets (3.228583ms)
+  Error: V16仅支持当前版本备份（最多 100 项），不兼容旧备份
+      at Module.readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:48:148)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/targets.test.mjs:12:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:9:1
+✖ V15 reads its schema4 store without filling historical missing region or changing provenance (1.040958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'scene-forge-workspace-v16'
+  - 'scene-forge-workspace-v15'
+                             ^
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:12:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'scene-forge-workspace-v16',
+    expected: 'scene-forge-workspace-v15',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:17:1
+✖ invalid history does not reset current-schema DeepSeek connection or alter protected data (0.127417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'openai'
+  - 'deepseek'
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:22:30)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'openai',
+    expected: 'deepseek',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:45:1
+✖ backup and persisted state whitelist data and exclude credentials at every level (0.08775ms)
+  Error: 当前输入版本或元素设置格式错误，请检查参考与必须出现要求。
+      at fail (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:93:24)
+      at validateBrief (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/brief.mjs:96:143)
+      at backupPayload (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:28:14)
+      at saveWorkspace (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:73:10)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:47:2)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)

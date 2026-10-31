@@ -1,0 +1,47 @@
+import {test,expect} from '@playwright/test';
+import {fileURLToPath} from 'node:url';
+const storage='scene-forge-workspace-v15';
+const evidence=fileURLToPath(new URL('../../验证材料/',import.meta.url));
+const read=page=>page.evaluate(k=>JSON.parse(localStorage.getItem(k)),storage);
+for(const [layout,viewport] of [['桌面',{width:1440,height:1000}],['手机',{width:390,height:844}]]){
+ test(`${layout}: reference, required dependencies and isolated intent persist`,async({page})=>{
+  await page.setViewportSize(viewport);await page.goto('/');
+  await page.evaluate(()=>localStorage.setItem('scene-forge-workspace-v12','old-protected-data'));
+  await expect(page.getByLabel('大致说明',{exact:true})).toHaveValue('');
+  await page.getByLabel('大致说明',{exact:true}).fill('安静、辽阔，像时间停止了。');
+  await page.getByRole('button',{name:'＋ 选择元素',exact:true}).click();
+  await page.getByLabel('自定义元素',{exact:true}).fill('旅人；道路');
+  await page.getByRole('button',{name:'完成选择',exact:true}).click();
+  expect((await read(page)).draft.elementSettings.map(s=>s.presence)).toEqual(['reference','reference']);
+  await page.locator('.selected-name').filter({hasText:/^旅人/}).click();
+  await page.getByLabel('关系',{exact:true}).fill('沿着');
+  await page.getByLabel('关系对象',{exact:true}).click();
+  await page.locator('.ant-select-dropdown:visible .ant-select-item-option-content').filter({hasText:/^道路$/}).click();
+  await page.getByRole('button',{name:'完成设置',exact:true}).click();
+  await page.getByRole('checkbox',{name:'旅人必须出现',exact:true}).click();
+  await expect(page.getByRole('button',{name:'保存必需关系'})).toBeDisabled();
+  expect((await read(page)).draft.elementSettings[0].presence).toBe('reference');
+  await page.getByRole('checkbox',{name:'道路也必须出现',exact:true}).check();
+  await expect(page.getByRole('dialog')).toBeInViewport();
+  await expect(page.getByRole('dialog')).toHaveCSS('opacity','1');
+  await expect(page.getByRole('dialog')).toHaveCSS('transform','none');
+  await page.screenshot({path:evidence+`${layout}-必需关系.png`});
+  await page.getByRole('button',{name:'保存必需关系'}).click();
+  await page.reload();
+  expect((await read(page)).draft.elementSettings.map(s=>s.presence)).toEqual(['required','required']);
+  expect(await page.evaluate(()=>localStorage.getItem('scene-forge-workspace-v12'))).toBe('old-protected-data');
+  await page.screenshot({path:evidence+`${layout}-开放创作.png`,animations:'disabled',fullPage:true});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
+  await page.getByRole('button',{name:'清空元素',exact:true}).click();
+  await page.getByRole('button',{name:'配置模型接口',exact:true}).click();
+  await page.getByLabel('API Key',{exact:true}).fill('mock-open-creation');
+  await page.getByLabel('文本模型 ID',{exact:true}).fill('mock-text-model');
+  await page.getByRole('button',{name:'保存配置',exact:true}).click();
+  const pending=page.waitForRequest(r=>r.url().endsWith('/api/generate'));
+  await page.getByRole('button',{name:'生成双语提示词 ↗',exact:true}).click();
+  const sent=(await pending).postDataJSON().brief;
+  expect(sent.schemaVersion).toBe(4);expect(sent.元素).toBe('');expect(sent.大致说明).toContain('像时间停止');
+  await expect(page.getByText('5 对双语',{exact:true})).toBeVisible();
+  expect((await read(page)).history[0].brief).toEqual(sent);
+ });
+}

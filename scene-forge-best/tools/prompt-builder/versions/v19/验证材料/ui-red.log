@@ -1,0 +1,32 @@
+
+> scene-forge-workbench@19.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v19/输出
+
+ ❯ src/__tests__/App.test.jsx (11 tests | 1 failed) 282ms
+   × selecting ten pairs in the popup persists the actual numeric count 15ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/App.test.jsx > selecting ten pairs in the popup persists the actual numeric count
+AssertionError: expected 1 to be 10 // Object.is equality
+
+- Expected
++ Received
+
+- 10
++ 1
+
+ ❯ src/__tests__/App.test.jsx:237:209
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 10 passed (11)
+   Start at  23:00:45
+   Duration  660ms (tests 47%, environment 38%, import 8%, transform 7%)
+

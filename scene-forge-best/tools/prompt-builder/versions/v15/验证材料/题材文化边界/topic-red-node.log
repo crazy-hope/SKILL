@@ -1,0 +1,30 @@
+✖ topic guidance preserves cultural boundary while allowing original objects (0.529792ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40.854416
+
+✖ failing tests:
+
+test at tools/prompt-builder/versions/v15/tests/topic-boundaries.test.mjs:4:1
+✖ topic guidance preserves cultural boundary while allowing original objects (0.529792ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /题材.*文化.*边界/. Input:
+  
+  '东方奇幻世界：从意图构思东方文化气质的奇幻空间，不限于天界或仙侠。元素是可选灵感，允许库外主体与关系；明确必须项与排除项优先。'
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v15/tests/topic-boundaries.test.mjs:6:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '东方奇幻世界：从意图构思东方文化气质的奇幻空间，不限于天界或仙侠。元素是可选灵感，允许库外主体与关系；明确必须项与排除项优先。',
+    expected: /题材.*文化.*边界/,
+    operator: 'match',
+    diff: 'simple'
+  }

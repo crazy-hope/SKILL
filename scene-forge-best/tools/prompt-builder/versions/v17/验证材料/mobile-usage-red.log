@@ -1,0 +1,49 @@
+
+> scene-forge-workbench@17.0.0 test:e2e
+> playwright test --grep mobile custom scene
+
+
+Running 1 test using 1 worker
+
+(node:46897) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 e2e/workbench.spec.mjs:188:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow (9.7s)
+
+
+  1) e2e/workbench.spec.mjs:188:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('.dock-selection small')
+    Expected: visible
+    Received: hidden
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('.dock-selection small') with timeout 5000ms
+      - waiting for locator('.dock-selection small')
+        14 × locator resolved to <small>完整生成通常调用文本模型两次：展开画面与审校，会增加等待与用量</small>
+           - unexpected value "hidden"
+
+
+      205 |   await conceive(page);
+      206 |   await select(page);
+    > 207 |   await expect(page.locator(".dock-selection small")).toBeVisible();
+          |                                                       ^
+      208 |   await noOverflow(page);
+      209 |   await waitForScreenshotIdle(page, true);
+      210 |   await page.screenshot({
+        at /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/输出/e2e/workbench.spec.mjs:207:55
+
+    Error Context: test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e/workbench.spec.mjs:188:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow 

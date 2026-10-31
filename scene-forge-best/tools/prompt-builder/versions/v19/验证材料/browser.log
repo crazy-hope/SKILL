@@ -1,0 +1,8 @@
+PASS exact five defaults visible; empty subject; fresh interface
+PASS Ant Design controls, ten-pair select, Escape and focus restoration
+PASS AI replace/undo; manual direct bilingual generation; isolated key and history
+PASS copy, backup download/restore and historical view
+PASS stale edit/revert response discarded; empty values survive reload; legacy data untouched
+PASS restoring five preserves subject/negative; conflict not saved
+PASS 390px mobile layout has no horizontal overflow
+PASS no browser runtime errors; all responses simulated

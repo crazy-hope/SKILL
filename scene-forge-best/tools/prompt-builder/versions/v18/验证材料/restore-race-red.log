@@ -1,0 +1,29 @@
+
+> scene-forge-workbench@18.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/输出
+
+ ❯ src/__tests__/App.test.jsx (9 tests | 1 failed) 276ms
+   × restoring a backup invalidates AI started during the pending file read 37ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/App.test.jsx > restoring a backup invalidates AI started during the pending file read
+AssertionError: expected '来自旧条件的AI描述' to be '恢复后的主体' // Object.is equality
+
+Expected: "恢复后的主体"
+Received: "来自旧条件的AI描述"
+
+ ❯ src/__tests__/App.test.jsx:161:822
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 8 passed (9)
+   Start at  22:20:43
+   Duration  647ms (tests 47%, environment 40%, import 8%, transform 5%)
+

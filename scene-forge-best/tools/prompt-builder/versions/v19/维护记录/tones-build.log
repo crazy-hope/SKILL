@@ -1,0 +1,19 @@
+
+> scene-forge-workbench@19.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1502 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.45 kB │ gzip:   0.31 kB
+dist/assets/index-DskqxrbC.css   11.37 kB │ gzip:   3.32 kB
+dist/assets/index-Cji-zdYn.js   797.73 kB │ gzip: 260.00 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 138ms

@@ -1,0 +1,31 @@
+PASS 1440x900: default action bottom 754.875, complete default text and no overflow
+PASS 1280x800: default action bottom 754.875, complete default text and no overflow
+PASS 1024x768: default action bottom 754.875, complete default text and no overflow
+PASS real mock HTTP generation opens loading/ready modal; switch, exact copy, close/reopen and no embedded result
+PASS closing pending request keeps it running; edited input rejects stale response without history
+PASS ten tabs, long textarea scroll, complete long bilingual copy/download, narrow/short viewport footer and internal scrolling
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+ExpectError: clarification must not overflow above scroll origin
+
+expect(received).toBeGreaterThanOrEqual(expected)
+
+Expected: >= 69.078125
+Received:    -1561.375
+    at captureRawStack (/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v15/输出/node_modules/playwright-core/lib/coreBundle.js:9282:17)
+    at callMatcherAsStep (/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v15/输出/node_modules/playwright/lib/matchers/expect.js:13316:57)
+    at Object.toBeGreaterThanOrEqual (/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v15/输出/node_modules/playwright/lib/matchers/expect.js:13308:23)
+    at /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v19/tests/browser-modal.mjs:63:67 {
+  matcherResult: {
+    message: 'expect(received).toBeGreaterThanOrEqual(expected)\n' +
+      '\n' +
+      'Expected: >= 69.078125\n' +
+      'Received:    -1561.375',
+    pass: false,
+    name: 'toBeGreaterThanOrEqual'
+  }
+}
+
+Node.js v24.20.0

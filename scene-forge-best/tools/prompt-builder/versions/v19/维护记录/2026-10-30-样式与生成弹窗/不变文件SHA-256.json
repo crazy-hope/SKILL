@@ -1,0 +1,7 @@
+{
+  "versions/v16/输出/规范框架v16.md": "65202f0245304f5914ccbbfc0ab94b6fb6e24beb1d67803c30d5e4ab14b7621f",
+  "tools/prompt-builder/versions/v19/输出/model.mjs": "6e66ff69709c067f8320621651bff6be4f3f5980e2481d4dd07795904dc4b6ff",
+  "tools/prompt-builder/versions/v19/输出/defaults.json": "224270167141897001960b4c601538752501ba2ab054afd47a240e069cc745a3",
+  "tools/prompt-builder/versions/v19/输出/contract.py": "ceb9001f5f0a4db63be90cb76a61231d3d3c807f2042112739097126c9f6bbc4",
+  "tools/prompt-builder/versions/v19/输出/server.py": "9c9c642a3571938e8f1a847fb418e8823b309c745db3930129825c8efab74279"
+}

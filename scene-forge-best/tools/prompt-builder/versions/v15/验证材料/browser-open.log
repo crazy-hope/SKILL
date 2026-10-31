@@ -1,0 +1,13 @@
+
+> scene-forge-workbench@15.0.0 test:e2e
+> playwright test e2e/open-creation.spec.mjs
+
+
+Running 2 tests using 1 worker
+
+(node:24094) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/open-creation.spec.mjs:7:2 › 桌面: reference, required dependencies and isolated intent persist (4.0s)
+  ✓  2 e2e/open-creation.spec.mjs:7:2 › 手机: reference, required dependencies and isolated intent persist (4.1s)
+
+  2 passed (10.1s)

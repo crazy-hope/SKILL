@@ -1,0 +1,2694 @@
+
+ RUN  v5.0.5 /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v19/输出
+
+ ❯ src/__tests__/ResultsModal.test.jsx (6 tests | 6 failed) 1777ms
+   × opens loading immediately, can reopen without resending, and shows final text only in dialog 446ms
+   × failed new generation never shows old successful output as the current result 301ms
+   × clarification stays in the generation dialog and preserves inputs without success history 225ms
+   × switching schemes copies only the selected complete language 375ms
+   × viewing historical output is not replaced by a pending newer result 217ms
+   × new draft during a pending generation prevents old output from reopening or being saved 212ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > opens loading immediately, can reopen without resending, and shows final text only in dialog
+TestingLibraryElementError: Unable to find an accessible element with the role "dialog" and name "完整提示词"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 0":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "loading 正在生成完整提示词…":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-loading ant-btn-block generate"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "loading":
+  [36m<span[39m
+    [33maria-label[39m=[32m"loading"[39m
+    [33mclass[39m=[32m"anticon anticon-loading anticon-spin"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_1_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+              [36m>[39m
+                [0m0[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_1_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_1_ ant-form-css-var css-dev-only-do-not-override-eofgey tone-grid"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"ant-card ant-card-bordered ant-card-small tone-card style css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"ant-card-body"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"ant-form-item css-var-_r_1_ ant-form-css-var css-dev-only-do-not-override-eofgey ant-form-item-vertical"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"ant-row ant-form-item-row css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-label css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+                      [36m>[39m
+                        [36m<label[39m
+                          [33mclass[39m=[32m""[39m
+                          [33mfor[39m=[32m"style"[39m
+                        [36m>[39m
+                          [36m<span>[39m
+                            [36m<span[39m
+                              [33mclass[39m=[32m"field-number"[39m
+                            [36m>[39m
+                              [0m0[0m
+                              [0m1[0m
+                            [36m</span>[39m
+                            [0m画风题材[0m
+                          [36m</span>[39m
+                        [36m</label>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-control css-dev-only-do-not-override-eofgey css-var-_r_1_"[39m
+                      [36m>[39m
+                        [36m<div[39m
+                          [33mclass[39m=[32m"ant-form-item-control-input"[39m
+                        [36m>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"ant-form-item-control-input-content"[39m
+                          [36m>[39m
+                            [36m<textarea[39m
+                              [33maria-label[39m=[32m"画风题材"[39m
+                              [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_1_ ant-input-css-var"[39m
+                              [33mid[39m=[32m"style"[39m
+                              [33mmaxlength[39m=[32m"6000"[39m
+                              [33mstyle[39m=...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/__tests__/ResultsModal.test.jsx:16:162
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > failed new generation never shows old successful output as the current result
+TestingLibraryElementError: Unable to find an accessible element with the role "dialog"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 1":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "生成完整提示词":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-block generate"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "下载全部":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制中文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制英文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "查看本次输入与来源":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"hint"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  Name "完整提示词":
+  [36m<h2 />[39m
+
+  Name "01旧方案1":
+  [36m<h3 />[39m
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  [36m<div[39m
+    [33mclass[39m=[32m"ant-alert ant-alert-info ant-alert-outlined feedback css-var-_r_7_ css-dev-only-do-not-override-eofgey"[39m
+    [33mdata-show[39m=[32m"true"[39m
+    [33mrole[39m=[32m"status"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "info-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"info-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-info-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_7_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  article:
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"scheme"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<textarea[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mname[39m=[32m"hiddenTextarea"[39m
+    [33mstyle[39m=[32m"letter-spacing:normal;line-height:var(--ant-line-height);padding-top:0;padding-bottom:0;font-family:var(--ant-font-family);font-weight:400;font-size:var(--ant-input-input-font-size);font-variant:normal;text-rendering:auto;text-transform:none;width:100%;text-indent:0;padding-left:0;padding-right:0;border-width:0px;box-sizing:border-box;word-break:normal;white-space:pre-wrap;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important;
+  pointer-events: none !important;
+"[39m
+    [33mtab-index[39m=[32m"-1"[39m
+  [36m/>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_7_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_7_"[39m
+              [36m>[39m
+                [0m1[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_7_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-alert ant-alert-info ant-alert-outlined feedback css-var-_r_7_ css-dev-only-do-not-override-eofgey"[39m
+          [33mdata-show[39m=[32m"true"[39m
+          [33mrole[39m=[32m"status"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-alert-icon"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33maria-label[39m=[32m"info-circle"[39m
+              [33mclass[39m=[32m"anticon anticon-info-circle"[39m
+              [33mrole[39m=[32m"img"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mdata-icon[39m=[32m"info-circle"[39m
+                [33mfill[39m=[32m"currentColor"[39m
+                [33mfocusable[39m=[32m"false"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mviewBox[39m=[32m"64 64 896 896"[39m
+                [33mwidth[39m=[32m"1em"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm32 664c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V456c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272zm-32-344a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-alert-section"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-alert-title"[39m
+            [36m>[39m
+              [0m双语提示词已生成。[0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_7_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_7_ ant-form-css-var css-dev-only-do-not-override-e...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ close src/__tests__/ResultsModal.test.jsx:14:54
+
+ ❯ src/__tests__/ResultsModal.test.jsx:17:305
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > clarification stays in the generation dialog and preserves inputs without success history
+TestingLibraryElementError: Unable to find an accessible element with the role "dialog"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 0":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "loading 正在生成完整提示词…":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-loading ant-btn-block generate"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_d_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "loading":
+  [36m<span[39m
+    [33maria-label[39m=[32m"loading"[39m
+    [33mclass[39m=[32m"anticon anticon-loading anticon-spin"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<textarea[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mname[39m=[32m"hiddenTextarea"[39m
+    [33mstyle[39m=[32m"letter-spacing:normal;line-height:var(--ant-line-height);padding-top:0;padding-bottom:0;font-family:var(--ant-font-family);font-weight:400;font-size:var(--ant-input-input-font-size);font-variant:normal;text-rendering:auto;text-transform:none;width:100%;text-indent:0;padding-left:0;padding-right:0;border-width:0px;box-sizing:border-box;word-break:normal;white-space:pre-wrap;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important;
+  pointer-events: none !important;
+"[39m
+    [33mtab-index[39m=[32m"-1"[39m
+  [36m/>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_d_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_d_"[39m
+              [36m>[39m
+                [0m0[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_d_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_d_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_d_ ant-form-css-var css-dev-only-do-not-override-eofgey tone-grid"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"ant-card ant-card-bordered ant-card-small tone-card style css-dev-only-do-not-override-eofgey css-var-_r_d_"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"ant-card-body"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"ant-form-item css-var-_r_d_ ant-form-css-var css-dev-only-do-not-override-eofgey ant-form-item-vertical"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"ant-row ant-form-item-row css-dev-only-do-not-override-eofgey css-var-_r_d_"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-label css-dev-only-do-not-override-eofgey css-var-_r_d_"[39m
+                      [36m>[39m
+                        [36m<label[39m
+                          [33mclass[39m=[32m""[39m
+                          [33mfor[39m=[32m"style"[39m
+                        [36m>[39m
+                          [36m<span>[39m
+                            [36m<span[39m
+                              [33mclass[39m=[32m"field-number"[39m
+                            [36m>[39m
+                              [0m0[0m
+                              [0m1[0m
+                            [36m</span>[39m
+                            [0m画风题材[0m
+                          [36m</span>[39m
+                        [36m</label>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-control css-dev-on...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/__tests__/ResultsModal.test.jsx:18:291
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > switching schemes copies only the selected complete language
+TestingLibraryElementError: Unable to find an accessible element with the role "tab" and name `/新方案2/`
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 1":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "生成完整提示词":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-block generate"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "下载全部":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制中文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制英文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制中文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "复制英文":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "查看本次输入与来源":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"hint"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  Name "完整提示词":
+  [36m<h2 />[39m
+
+  Name "01新方案1":
+  [36m<h3 />[39m
+
+  Name "02新方案2":
+  [36m<h3 />[39m
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  [36m<div[39m
+    [33mclass[39m=[32m"ant-alert ant-alert-info ant-alert-outlined feedback css-var-_r_j_ css-dev-only-do-not-override-eofgey"[39m
+    [33mdata-show[39m=[32m"true"[39m
+    [33mrole[39m=[32m"status"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "info-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"info-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-info-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_j_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  article:
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"scheme"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"scheme"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<textarea[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mname[39m=[32m"hiddenTextarea"[39m
+    [33mstyle[39m=[32m"letter-spacing:normal;line-height:var(--ant-line-height);padding-top:0;padding-bottom:0;font-family:var(--ant-font-family);font-weight:400;font-size:var(--ant-input-input-font-size);font-variant:normal;text-rendering:auto;text-transform:none;width:100%;text-indent:0;padding-left:0;padding-right:0;border-width:0px;box-sizing:border-box;word-break:normal;white-space:pre-wrap;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important;
+  pointer-events: none !important;
+"[39m
+    [33mtab-index[39m=[32m"-1"[39m
+  [36m/>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_j_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_j_"[39m
+              [36m>[39m
+                [0m1[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_j_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-alert ant-alert-info ant-alert-outlined feedback css-var-_r_j_ css-dev-only-do-not-override-eofgey"[39m
+          [33mdata-show[39m=[32m"true"[39m
+          [33mrole[39m=[32m"status"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-alert-icon"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33maria-label[39m=[32m"info-circle"[39m
+              [33mclass[39m=[32m"anticon anticon-info-circle"[39m
+              [33mrole[39m=[32m"img"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mdata-icon[39m=[32m"info-circle"[39m
+                [33mfill[39m=[32m"currentColor"[39m
+                [33mfocusable[39m=[32m"false"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mviewBox[39m=[32m"64 64 896 896"[39m
+                [33mwidth[39m=[32m"1em"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm32 664c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V456c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272zm-32-344a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-alert-section"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-alert-title"[39m
+            [36m>[39m
+              [0m双语提示词已生成。[0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_j_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_j_ ant-form-css-var css-dev-only-do-not-override-e...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/__tests__/ResultsModal.test.jsx:19:556
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > viewing historical output is not replaced by a pending newer result
+TestingLibraryElementError: Unable to find an accessible element with the role "dialog"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 1":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "loading 正在生成完整提示词…":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-loading ant-btn-block generate"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_q_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "loading":
+  [36m<span[39m
+    [33maria-label[39m=[32m"loading"[39m
+    [33mclass[39m=[32m"anticon anticon-loading anticon-spin"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<textarea[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mname[39m=[32m"hiddenTextarea"[39m
+    [33mstyle[39m=[32m"letter-spacing:normal;line-height:var(--ant-line-height);padding-top:0;padding-bottom:0;font-family:var(--ant-font-family);font-weight:400;font-size:var(--ant-input-input-font-size);font-variant:normal;text-rendering:auto;text-transform:none;width:100%;text-indent:0;padding-left:0;padding-right:0;border-width:0px;box-sizing:border-box;word-break:normal;white-space:pre-wrap;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important;
+  pointer-events: none !important;
+"[39m
+    [33mtab-index[39m=[32m"-1"[39m
+  [36m/>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_q_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_q_"[39m
+              [36m>[39m
+                [0m1[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_q_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_q_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_q_ ant-form-css-var css-dev-only-do-not-override-eofgey tone-grid"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"ant-card ant-card-bordered ant-card-small tone-card style css-dev-only-do-not-override-eofgey css-var-_r_q_"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"ant-card-body"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"ant-form-item css-var-_r_q_ ant-form-css-var css-dev-only-do-not-override-eofgey ant-form-item-vertical"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"ant-row ant-form-item-row css-dev-only-do-not-override-eofgey css-var-_r_q_"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-label css-dev-only-do-not-override-eofgey css-var-_r_q_"[39m
+                      [36m>[39m
+                        [36m<label[39m
+                          [33mclass[39m=[32m""[39m
+                          [33mfor[39m=[32m"style"[39m
+                        [36m>[39m
+                          [36m<span>[39m
+                            [36m<span[39m
+                              [33mclass[39m=[32m"field-number"[39m
+                            [36m>[39m
+                              [0m0[0m
+                              [0m1[0m
+                            [36m</span>[39m
+                            [0m画风题材[0m
+                          [36m</span>[39m
+                        [36m</label>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-control css-dev-on...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ close src/__tests__/ResultsModal.test.jsx:14:54
+
+ ❯ src/__tests__/ResultsModal.test.jsx:21:198
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/6]⎯
+
+ FAIL  src/__tests__/ResultsModal.test.jsx > new draft during a pending generation prevents old output from reopening or being saved
+TestingLibraryElementError: Unable to find an accessible element with the role "dialog"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"topbar"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "景画面工作台SCENE FORGE / 19":
+  [36m<a[39m
+    [33mclass[39m=[32m"brand"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "记录与备份 0":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "接口设置":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "恢复五项默认":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "AI描述主体":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"ant-select-clear"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "负面提示词 可修改或清空":
+  [36m<div[39m
+    [33maria-disabled[39m=[32m"false"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33mclass[39m=[32m"ant-collapse-header"[39m
+    [33mrole[39m=[32m"button"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "loading 正在生成完整提示词…":
+  [36m<button[39m
+    [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-loading ant-btn-block generate"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"footnote"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "先定基调，再描绘主体。":
+  [36m<h1 />[39m
+
+  Name "画面基调":
+  [36m<h2 />[39m
+
+  Name "描绘主体":
+  [36m<h2 />[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "画面基调":
+  [36m<section[39m
+    [33maria-label[39m=[32m"画面基调"[39m
+    [33mclass[39m=[32m"tone"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "画风题材":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"画风题材"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"style"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "色彩":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"色彩"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"color"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "镜头机位":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"镜头机位"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"camera"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "情绪":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"情绪"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"mood"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "瞬间状态":
+  [36m<textarea[39m
+    [33maria-label[39m=[32m"瞬间状态"[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"moment"[39m
+    [33mmaxlength[39m=[32m"6000"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  Name "主体内容":
+  [36m<textarea[39m
+    [33mclass[39m=[32m"ant-input css-dev-only-do-not-override-eofgey ant-input-outlined css-var-_r_10_ ant-input-css-var"[39m
+    [33mid[39m=[32m"subject"[39m
+    [33mmaxlength[39m=[32m"12000"[39m
+    [33mplaceholder[39m=[32m"可以从一句想法开始，再让 AI 补齐位置、材质、颜色、动作与环境反馈。"[39m
+    [33mstyle[39m=[32m"overflow-y: hidden; resize: none; height: 0px;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "目标图像模型":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"目标图像模型"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"target"[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m"Midjourney"[39m
+  [36m/>[39m
+
+  Name "方案数量":
+  [36m<input[39m
+    [33maria-autocomplete[39m=[32m"list"[39m
+    [33maria-expanded[39m=[32m"false"[39m
+    [33maria-haspopup[39m=[32m"listbox"[39m
+    [33maria-label[39m=[32m"方案数量"[39m
+    [33mautocomplete[39m=[32m"new-password"[39m
+    [33mclass[39m=[32m"ant-select-input"[39m
+    [33mid[39m=[32m"count"[39m
+    [33mreadonly[39m=[32m""[39m
+    [33mrole[39m=[32m"combobox"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "close-circle":
+  [36m<span[39m
+    [33maria-label[39m=[32m"close-circle"[39m
+    [33mclass[39m=[32m"anticon anticon-close-circle"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "down":
+  [36m<span[39m
+    [33maria-label[39m=[32m"down"[39m
+    [33mclass[39m=[32m"anticon anticon-down"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  Name "loading":
+  [36m<span[39m
+    [33maria-label[39m=[32m"loading"[39m
+    [33mclass[39m=[32m"anticon anticon-loading anticon-spin"[39m
+    [33mrole[39m=[32m"img"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<textarea[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mname[39m=[32m"hiddenTextarea"[39m
+    [33mstyle[39m=[32m"letter-spacing:normal;line-height:var(--ant-line-height);padding-top:0;padding-bottom:0;font-family:var(--ant-font-family);font-weight:400;font-size:var(--ant-input-input-font-size);font-variant:normal;text-rendering:auto;text-transform:none;width:100%;text-indent:0;padding-left:0;padding-right:0;border-width:0px;box-sizing:border-box;word-break:normal;white-space:pre-wrap;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important;
+  pointer-events: none !important;
+"[39m
+    [33mtab-index[39m=[32m"-1"[39m
+  [36m/>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"studio"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#top"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [0m景[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0m画面工作台[0m
+            [36m<small>[39m
+              [0mSCENE FORGE / 19[0m
+            [36m</small>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"ant-space css-dev-only-do-not-override-eofgey ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_r_10_"[39m
+          [33mstyle[39m=[32m"flex-wrap: wrap;"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-text ant-btn-color-default ant-btn-variant-text"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m记录与备份 [0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_10_"[39m
+              [36m>[39m
+                [0m0[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"ant-space-item"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m接口设置[0m
+              [36m</span>[39m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33mid[39m=[32m"top"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"intro"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"eyebrow"[39m
+            [36m>[39m
+              [0m从一段想法，到一个具体画面[0m
+            [36m</p>[39m
+            [36m<h1>[39m
+              [0m先定基调，再描绘主体。[0m
+            [36m</h1>[39m
+            [36m<p>[39m
+              [0m五项设定都可以修改。写下画面中的主体，或让 AI 帮你把细节描述完整。[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"ant-tag ant-tag-filled css-dev-only-do-not-override-eofgey css-var-_r_10_"[39m
+          [36m>[39m
+            [0m规范 V16[0m
+          [36m</span>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33maria-label[39m=[32m"画面基调"[39m
+            [33mclass[39m=[32m"tone"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"section-title"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"step"[39m
+                [36m>[39m
+                  [0m01[0m
+                [36m</span>[39m
+                [36m<h2>[39m
+                  [0m画面基调[0m
+                [36m</h2>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"ant-btn css-dev-only-do-not-override-eofgey css-var-_r_10_ ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<span>[39m
+                  [0m恢复五项默认[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"ant-form ant-form-vertical css-var-_r_10_ ant-form-css-var css-dev-only-do-not-override-eofgey tone-grid"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"ant-card ant-card-bordered ant-card-small tone-card style css-dev-only-do-not-override-eofgey css-var-_r_10_"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"ant-card-body"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"ant-form-item css-var-_r_10_ ant-form-css-var css-dev-only-do-not-override-eofgey ant-form-item-vertical"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"ant-row ant-form-item-row css-dev-only-do-not-override-eofgey css-var-_r_10_"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-label css-dev-only-do-not-override-eofgey css-var-_r_10_"[39m
+                      [36m>[39m
+                        [36m<label[39m
+                          [33mclass[39m=[32m""[39m
+                          [33mfor[39m=[32m"style"[39m
+                        [36m>[39m
+                          [36m<span>[39m
+                            [36m<span[39m
+                              [33mclass[39m=[32m"field-number"[39m
+                            [36m>[39m
+                              [0m0[0m
+                              [0m1[0m
+                            [36m</span>[39m
+                            [0m画风题材[0m
+                          [36m</span>[39m
+                        [36m</label>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"ant-col ant-form-item-control...
+ ❯ Object.getElementError ../../v15/输出/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../v15/输出/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ close src/__tests__/ResultsModal.test.jsx:14:54
+
+ ❯ src/__tests__/ResultsModal.test.jsx:23:142
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/6]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  6 failed (6)
+   Start at  23:28:43
+   Duration  2.51s (tests 72%, import 16%, environment 9%, setup 1%, transform 1%)
+

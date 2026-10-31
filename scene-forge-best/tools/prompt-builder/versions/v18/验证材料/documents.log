@@ -1,0 +1,5 @@
+PASS three picture modules, adapter registry and historical example unchanged
+PASS 836 archived file SHA-256 values unchanged
+PASS 15 Markdown documents; headings, fences, tables and 348 local links
+PASS 15-chapter complete V16, version/baseline/date, R-01–R-06 records and V18 launcher
+PASS new UI source has no old components/catalog; schema6 storage and production dist present

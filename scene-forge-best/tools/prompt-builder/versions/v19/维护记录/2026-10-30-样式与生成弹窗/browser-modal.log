@@ -1,0 +1,8 @@
+PASS 1440x900: default action bottom 754.875, complete default text and no overflow
+PASS 1280x800: default action bottom 754.875, complete default text and no overflow
+PASS 1024x768: default action bottom 754.875, complete default text and no overflow
+PASS real mock HTTP generation opens loading/ready modal; switch, exact copy, close/reopen and no embedded result
+PASS closing pending request keeps it running; edited input rejects stale response without history
+PASS ten tabs, long textarea scroll, complete long bilingual copy/download, narrow/short viewport footer and internal scrolling
+PASS long error and clarification fully scrollable from first to last line on short mobile viewport
+PASS history modal and assets/runtime; all model responses simulated

@@ -1,0 +1,201 @@
+✔ catalog covers thirty-three topics with useful scenes and classified elements (0.65775ms)
+✔ scene recommendations rank traffic and portrait categories without dropping other elements (1.052167ms)
+✔ search matches item or category and handles empty results (0.277708ms)
+✔ search understands legacy topic names and item topic membership (0.298958ms)
+✔ all topics have balanced searchable categories and retain V13 candidates (68.224625ms)
+✖ independent character settings survive normalization backup history and export (1.14825ms)
+✔ new optional attributes remain missing in old records and reject invalid values (0.57475ms)
+✔ provider keys retain their own storage and can be cleared without touching creative data (0.857333ms)
+✔ unreadable credentials and storage failures remain observable (0.173583ms)
+✔ current defaults and empty description survive restore without legacy fields (1.725208ms)
+✖ manual motion and spatial settings survive preview, history and backup (3.359ms)
+✔ deleting relationship target clears stale relation but retains actor locks (0.173375ms)
+✔ manual controls update independently; clearing elements drops all settings (0.480666ms)
+✔ old formats and old briefs in a new backup are rejected (0.44875ms)
+✔ unknown key data is not exported and relations cannot reference self or unselected objects (0.12275ms)
+✖ gender locks stay attached to separate people through settings, backup and input export (2.566666ms)
+✖ missing gender in current V16 records stays missing and custom gender remains bounded (0.179ms)
+✔ gender controls are available for identities and custom people but not known objects (0.104875ms)
+✔ open creation defaults and per-element presence (1.299541ms)
+✔ conditional attributes do not promote references and dependencies are explicit (0.53325ms)
+✔ malformed new backups cannot silently lose required semantics (2.437208ms)
+✔ new workspace does not read or overwrite old creative storage (0.153041ms)
+✔ topic guidance describes open intent without old character or size locks (0.233ms)
+✖ region survives normalization, presets, history and exported input independently of topic (2.351958ms)
+✔ clearing panel 01 clears region with topic without changing other inputs (0.285417ms)
+✖ current V16 history without region stays absent and is not re-labelled as a selected region (0.1445ms)
+✔ invalid or multi-select region values are rejected rather than silently dropped (0.170792ms)
+✔ scene intent and selected idea survive normalize save refresh backup and text export (2.8965ms)
+✔ malformed scenes and old backups are rejected rather than repaired (0.515083ms)
+✔ ready history must retain a selected concept; empty draft remains valid (5.286625ms)
+✖ target provenance survives history and backup without extra secrets (1.61125ms)
+✖ missing provenance is not invented (0.733833ms)
+✔ download includes target and sources for combined or individual schemes (0.211625ms)
+✔ topic guidance preserves cultural boundary while allowing original objects (1.104875ms)
+✖ V16 reads its schema5 store without filling historical missing region or changing provenance (1.468417ms)
+✔ invalid store is surfaced and not overwritten during load (0.183167ms)
+✔ invalid history does not reset current-schema DeepSeek connection or alter protected data (0.708667ms)
+✔ connection saves only provider/model, supersedes workspace settings and works without creative storage (0.404792ms)
+✔ malformed connection is reported independently and storage failure is observable (0.286541ms)
+✖ backup and persisted state whitelist data and exclude credentials at every level (0.218ms)
+✔ storage failure is thrown for UI to report, never swallowed (0.119375ms)
+✔ download uses saved input and adaptive fences, retains both languages and provenance (0.305375ms)
+✖ actual design survives history, backup and downloads without contaminating inputs (0.157125ms)
+✔ missing or incomplete actual design is rejected without migrating or overwriting the store (1.790625ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 33
+ℹ fail 11
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 134.914208
+
+✖ failing tests:
+
+test at tools/prompt-builder/versions/v16/tests/characters.test.mjs:23:1
+✖ independent character settings survive normalization backup history and export (1.14825ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at Module.snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/characters.test.mjs:27:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/design.test.mjs:11:1
+✖ manual motion and spatial settings survive preview, history and backup (3.359ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/design.test.mjs:13:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/gender.test.mjs:8:1
+✖ gender locks stay attached to separate people through settings, backup and input export (2.566666ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at Module.readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/gender.test.mjs:13:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/gender.test.mjs:23:1
+✖ missing gender in current V16 records stays missing and custom gender remains bounded (0.179ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at Module.snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/gender.test.mjs:26:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/region.test.mjs:7:1
+✖ region survives normalization, presets, history and exported input independently of topic (2.351958ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/region.test.mjs:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/region.test.mjs:26:1
+✖ current V16 history without region stays absent and is not re-labelled as a selected region (0.1445ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/region.test.mjs:29:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tools/prompt-builder/versions/v16/tests/targets.test.mjs:6:1
+✖ target provenance survives history and backup without extra secrets (1.61125ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at Module.snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/targets.test.mjs:8:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tools/prompt-builder/versions/v16/tests/targets.test.mjs:15:1
+✖ missing provenance is not invented (0.733833ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at Module.snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/targets.test.mjs:16:34)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:9:1
+✖ V16 reads its schema5 store without filling historical missing region or changing provenance (1.468417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '本地创作记录无法读取，原记录已保留。请先导出原记录，再恢复有效备份或明确重置。'
+  - ''
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:12:86)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '本地创作记录无法读取，原记录已保留。请先导出原记录，再恢复有效备份或明确重置。',
+    expected: '',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:45:1
+✖ backup and persisted state whitelist data and exclude credentials at every level (0.218ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at backupPayload (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:25:17)
+      at saveWorkspace (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:73:10)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:47:2)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+
+test at tools/prompt-builder/versions/v16/tests/workspace.test.mjs:54:1
+✖ actual design survives history, backup and downloads without contaminating inputs (0.157125ms)
+  Error: 结果缺少选中构思，原记录已保留，请恢复有效备份。
+      at snapshot (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:43:33)
+      at Array.map (<anonymous>)
+      at readBackup (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/core.mjs:50:281)
+      at backupPayload (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:25:17)
+      at saveWorkspace (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/%E8%BE%93%E5%87%BA/src/workspace.mjs:73:10)
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/tests/workspace.test.mjs:57:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)

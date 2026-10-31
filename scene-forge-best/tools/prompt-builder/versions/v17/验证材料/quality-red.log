@@ -1,0 +1,117 @@
+.FFFFFF
+======================================================================
+FAIL: test_fabricated_or_empty_evidence_rejected (test_quality.QualityTests) (quote='不存在于正文的雨滴细节')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 44, in test_fabricated_or_empty_evidence_rejected
+    with self.subTest(quote=quote),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_fabricated_or_empty_evidence_rejected (test_quality.QualityTests) (quote='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 44, in test_fabricated_or_empty_evidence_rejected
+    with self.subTest(quote=quote),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_failed_semantic_review_never_returns_ready (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 35, in test_failed_semantic_review_never_returns_ready
+    self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_flat_art_can_skip_camera_with_reason (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 54, in test_flat_art_can_skip_camera_with_reason
+    self.assertIn('抽象平面',out['schemes'][0]['checks'])
+AssertionError: '抽象平面' not found in '检查宋代建筑特征'
+
+======================================================================
+FAIL: test_no_review_or_wrong_count_rejected (test_quality.QualityTests) (audit={'status': 'ready', 'schemes': [{'name': '云上眺望', 'concept': '仙女在古松旁眺望云海', 'specs': '16:9', 'zh': '仙女在古松旁眺望云海，清晨冷灰光。', 'en': 'A celestial maiden gazes across a sea of clouds beside an old pine, cool gray dawn light.', 'config': '参数未核实，请在平台选择 16:9。', 'checks': '检查宋代建筑特征', 'design': {'题材': '东方天界幻想', '地域': '东方文化视觉', '元素': '一位仙女、古松、云海', '视觉偏好': '清晨冷灰光', '镜头': '中远景平视', '风格与复杂度': '写实、疏朗', '构图': '仙女立于古松旁，云海向远处展开'}}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 39, in test_no_review_or_wrong_count_rejected
+    with self.subTest(audit=audit),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_no_review_or_wrong_count_rejected (test_quality.QualityTests) (audit={'status': 'review', 'reviews': []})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 39, in test_no_review_or_wrong_count_rejected
+    with self.subTest(audit=audit),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_no_review_or_wrong_count_rejected (test_quality.QualityTests) (audit={'status': 'review', 'reviews': [{'index': 1, 'checks': {}}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 39, in test_no_review_or_wrong_count_rejected
+    with self.subTest(audit=audit),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_required_checks_cannot_be_not_applicable (test_quality.QualityTests) (key='medium')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 49, in test_required_checks_cannot_be_not_applicable
+    with self.subTest(key=key),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_required_checks_cannot_be_not_applicable (test_quality.QualityTests) (key='constraints')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 49, in test_required_checks_cannot_be_not_applicable
+    with self.subTest(key=key),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_required_checks_cannot_be_not_applicable (test_quality.QualityTests) (key='bilingual')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 49, in test_required_checks_cannot_be_not_applicable
+    with self.subTest(key=key),self.assertRaises(server.AppError):self.run_generated(audit)
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_review_failure_does_not_retry_or_fallback (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 64, in test_review_failure_does_not_retry_or_fallback
+    with self.assertRaisesRegex(server.AppError,'审校服务失败'):server.generate(request())
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_success_requires_separate_review_and_keeps_prompts (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 22, in test_success_requires_separate_review_and_keeps_prompts
+    self.assertEqual(call.call_count,2)
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_truncated_review_rejected (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 73, in test_truncated_review_rejected
+    with patch.object(server,'upstream',side_effect=[envelope(result()),envelope(review_for(result()),finish='length')]),self.assertRaises(server.AppError):server.generate(request())
+AssertionError: AppError not raised
+
+======================================================================
+FAIL: test_wrong_scheme_mapping_is_rejected (test_quality.QualityTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v17/tests/test_quality.py", line 60, in test_wrong_scheme_mapping_is_rejected
+    with patch.object(server,'upstream',side_effect=[envelope(draft),envelope(audit)]),self.assertRaises(server.AppError):server.generate(req)
+AssertionError: AppError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.009s
+
+FAILED (failures=14)

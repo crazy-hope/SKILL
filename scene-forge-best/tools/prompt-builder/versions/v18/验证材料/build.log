@@ -1,0 +1,14 @@
+
+> scene-forge-workbench@18.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 18 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.45 kB │ gzip:  0.32 kB
+dist/assets/index-BLOXOOG9.css    8.77 kB │ gzip:  2.68 kB
+dist/assets/index-DY4wKLJj.js   241.95 kB │ gzip: 77.36 kB
+
+✓ built in 79ms

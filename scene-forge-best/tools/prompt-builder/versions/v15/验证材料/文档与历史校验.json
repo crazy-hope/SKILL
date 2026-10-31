@@ -1,0 +1,13 @@
+{
+  "historical_files_unchanged": 534,
+  "markdown_files": 15,
+  "local_links": 258,
+  "chapters": 15,
+  "preserved_sections": [
+    8,
+    13
+  ],
+  "model_registry_unchanged": true,
+  "v11_sha256": "b547596607b00cb2b7239395724dc86227a946fb0fbd28ffb54c16cc44a23b5e",
+  "status": "passed"
+}

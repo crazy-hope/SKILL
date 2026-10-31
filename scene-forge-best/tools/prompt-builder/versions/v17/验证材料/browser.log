@@ -1,0 +1,20 @@
+
+> scene-forge-workbench@17.0.0 test:e2e
+> playwright test
+
+
+Running 9 tests using 1 worker
+
+(node:47045) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup (9.8s)
+  ✓  2 e2e/workbench.spec.mjs:188:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow (5.4s)
+  ✓  3 e2e/workbench.spec.mjs:228:1 › advanced element attributes, required relations, region and empty negative persist (4.0s)
+  ✓  4 e2e/workbench.spec.mjs:271:1 › concept error and clarification preserve input, retry succeeds without false history (9.0s)
+  ✓  5 e2e/workbench.spec.mjs:295:1 › edits invalidate choices and delayed concept response, even if reverted (905ms)
+  ✓  6 e2e/workbench.spec.mjs:329:1 › delayed final response after changed input cannot enter history (961ms)
+  ✓  7 e2e/workbench.spec.mjs:363:1 › custom core removes lotus context and malicious concept markup is rendered as text (831ms)
+  ✓  8 e2e/workbench.spec.mjs:397:1 › corrupt current storage and previous version remain untouched while editing (352ms)
+  ✓  9 e2e/workbench.spec.mjs:425:1 › review rejects incomplete elements without saving history or losing input (1.0s)
+
+  9 passed (33.1s)

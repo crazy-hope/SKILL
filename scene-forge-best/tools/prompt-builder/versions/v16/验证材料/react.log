@@ -1,0 +1,13 @@
+
+> scene-forge-workbench@16.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v16/输出
+
+
+ Test Files  7 passed (7)
+      Tests  29 passed (29)
+   Start at  01:07:35
+   Duration  3.58s (tests 40%, import 39%, environment 17%, setup 3%, transform 1%)
+

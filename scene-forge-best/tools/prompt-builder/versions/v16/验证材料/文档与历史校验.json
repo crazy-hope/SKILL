@@ -1,0 +1,12 @@
+{
+  "documents": 18,
+  "local_links": 333,
+  "document_errors": [],
+  "archived_files": 650,
+  "changed_archives": [],
+  "preserved_sections": {
+    "## 8.": true,
+    "## 13.": true,
+    "<!-- MODEL_ADAPTERS_START -->": true
+  }
+}

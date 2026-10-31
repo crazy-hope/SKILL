@@ -1,0 +1,21 @@
+
+> scene-forge-workbench@18.0.0 test:core
+> node --test ../tests/*.test.mjs
+
+✔ exact visible defaults are real values with one pair and no old aspect override (0.708208ms)
+✔ edited and cleared paragraphs survive reload without default filling (0.475958ms)
+✔ missing fields, old schemas and illegal counts fail closed (0.172958ms)
+✔ old stores are ignored; corrupt current data is untouched and blocks saving (0.097375ms)
+✔ new backup round-trips results and excludes external credential fields (0.288583ms)
+✔ bad bilingual result and mismatched count cannot be saved as history (0.081ms)
+✔ valid backup can replace corrupt new storage explicitly (0.0675ms)
+✔ download retains original target adaptation source and text provider (0.119791ms)
+✔ model input guidance survives history and download outside the copyable prompt (0.1185ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40.406708

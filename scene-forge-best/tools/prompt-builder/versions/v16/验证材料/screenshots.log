@@ -1,0 +1,104 @@
+
+> scene-forge-workbench@16.0.0 test:e2e
+> playwright test --grep desktop two stages|mobile custom scene
+
+
+Running 2 tests using 1 worker
+
+(node:34347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup (0ms)
+(node:34350) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 e2e/workbench.spec.mjs:185:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow (0ms)
+
+
+  1) e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fr/mh9gl95s5hx1fkg8_4395ff40000gn/T/playwright_chromiumdev_profile-uYMTF5 --remote-debugging-pipe --no-startup-window
+    <launched> pid=34348
+    Call log:
+      - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fr/mh9gl95s5hx1fkg8_4395ff40000gn/T/playwright_chromiumdev_profile-uYMTF5 --remote-debugging-pipe --no-startup-window
+      - <launched> pid=34348
+      - [pid=34348] <gracefully close start>
+      - [pid=34348] <kill>
+      - [pid=34348] <will force kill>
+      - [pid=34348] exception while trying to kill process: Error: kill EPERM
+      - [pid=34348] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=34348] starting temporary directories cleanup
+      - [pid=34348] finished temporary directories cleanup
+      - [pid=34348] <gracefully close end>
+
+
+    Error Context: test-results/workbench-desktop-two-stag-0ce8d--outputs-exports-and-backup/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workbench-desktop-two-stag-0ce8d--outputs-exports-and-backup/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workbench-desktop-two-stag-0ce8d--outputs-exports-and-backup/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e/workbench.spec.mjs:185:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fr/mh9gl95s5hx1fkg8_4395ff40000gn/T/playwright_chromiumdev_profile-Tb8iSJ --remote-debugging-pipe --no-startup-window
+    <launched> pid=34351
+    Call log:
+      - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fr/mh9gl95s5hx1fkg8_4395ff40000gn/T/playwright_chromiumdev_profile-Tb8iSJ --remote-debugging-pipe --no-startup-window
+      - <launched> pid=34351
+      - [pid=34351] <gracefully close start>
+      - [pid=34351] <kill>
+      - [pid=34351] <will force kill>
+      - [pid=34351] exception while trying to kill process: Error: kill EPERM
+      - [pid=34351] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=34351] starting temporary directories cleanup
+      - [pid=34351] finished temporary directories cleanup
+      - [pid=34351] <gracefully close end>
+
+
+    Error Context: test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workbench-mobile-custom-sc-16d0b-fig-and-full-bilingual-flow/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup 
+    e2e/workbench.spec.mjs:185:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow 
+
+> scene-forge-workbench@16.0.0 test:e2e
+> playwright test --grep desktop two stages|mobile custom scene
+
+
+Running 2 tests using 1 worker
+
+(node:34502) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup (9.6s)
+  ✓  2 e2e/workbench.spec.mjs:185:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow (4.8s)
+
+  2 passed (15.0s)
+
+> scene-forge-workbench@16.0.0 test:e2e
+> playwright test --grep desktop two stages|mobile custom scene
+
+
+Running 2 tests using 1 worker
+
+(node:34748) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/workbench.spec.mjs:95:1 › desktop two stages, count change, refresh, selected preset, ten outputs, exports and backup (10.0s)
+  ✓  2 e2e/workbench.spec.mjs:187:1 › mobile custom scene, clear negative, DeepSeek config and full bilingual flow (5.5s)
+
+  2 passed (16.2s)

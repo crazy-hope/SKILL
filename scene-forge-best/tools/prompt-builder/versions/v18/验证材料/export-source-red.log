@@ -1,0 +1,36 @@
+✔ exact visible defaults are real values with one pair and no old aspect override (0.356208ms)
+✔ edited and cleared paragraphs survive reload without default filling (0.436583ms)
+✔ missing fields, old schemas and illegal counts fail closed (0.138083ms)
+✔ old stores are ignored; corrupt current data is untouched and blocks saving (0.087917ms)
+✔ new backup round-trips results and excludes external credential fields (0.3005ms)
+✔ bad bilingual result and mismatched count cannot be saved as history (0.101166ms)
+✔ valid backup can replace corrupt new storage explicitly (0.070125ms)
+✖ download retains original target adaptation source and text provider (0.291125ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44.227042
+
+✖ failing tests:
+
+test at tools/prompt-builder/versions/v18/tests/model.test.mjs:20:1
+✖ download retains original target adaptation source and text provider (0.291125ms)
+  AssertionError [ERR_ASSERTION]: midjourney
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/tests/model.test.mjs:20:305)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

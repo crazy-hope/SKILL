@@ -1,0 +1,37 @@
+
+> scene-forge-workbench@18.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/输出
+
+ ❯ src/__tests__/App.test.jsx (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/App.test.jsx [ src/__tests__/App.test.jsx ]
+Error: Failed to resolve import "../App.jsx" from "src/__tests__/App.test.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/输出/src/__tests__/App.test.jsx:4:16
+  2  |  import { render, screen, fireEvent, waitFor, cleanup } from "@testing-library/react";
+  3  |  import { afterEach, beforeEach, expect, it, vi } from "vitest";
+  4  |  import App from "../App.jsx";
+     |                   ^
+  5  |  import { freshBrief, STORAGE, KEY_STORAGE, CONNECTION_STORAGE } from "../../model.mjs";
+  6  |  var _jsxFileName = "/Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/输出/...
+ ❯ TransformPluginContext._formatLog ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:8803:39
+ ❯ TransformPluginContext.error ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:8800:14
+ ❯ resolveId ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:26594:18
+ ❯ ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:26693:23
+ ❯ TransformPluginContext.transform ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:26666:4
+ ❯ EnvironmentPluginContainer.transform ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:8582:14
+ ❯ loadAndTransform ../../v15/输出/node_modules/vite/dist/node/chunks/node.js:20155:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  22:06:22
+   Duration  425ms (environment 99%, worker 1%)
+

@@ -1,0 +1,23 @@
+
+> scene-forge-workbench@15.0.0 test:e2e
+> playwright test
+
+
+Running 12 tests using 1 worker
+
+(node:23470) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 e2e/actual-design.spec.mjs:14:36 › actual design with automatic input, persistence and download (desktop) (2.6s)
+  ✓   2 e2e/actual-design.spec.mjs:14:36 › actual design with automatic input, persistence and download (mobile) (3.0s)
+  ✓   3 e2e/characters.spec.mjs:29:3 › 桌面: all character dropdowns click, search, reopen and persist independently (8.9s)
+  ✓   4 e2e/characters.spec.mjs:29:3 › 手机: all character dropdowns click, search, reopen and persist independently (8.8s)
+  ✓   5 e2e/characters.spec.mjs:194:1 › character payload, presets backup restore and downloaded Markdown preserve every attribute (6.1s)
+  ✓   6 e2e/open-creation.spec.mjs:7:2 › 桌面: reference, required dependencies and isolated intent persist (2.6s)
+  ✓   7 e2e/open-creation.spec.mjs:7:2 › 手机: reference, required dependencies and isolated intent persist (3.5s)
+  ✓   8 e2e/workbench.spec.mjs:31:1 › desktop selection, locks, ten results, clipboard, downloads and schema4 persistence (9.0s)
+  ✓   9 e2e/workbench.spec.mjs:165:1 › mobile layout and picker, explicit empty values survive reload (1.8s)
+  ✓  10 e2e/workbench.spec.mjs:210:1 › failed generation is not saved and does not erase the draft (859ms)
+  ✓  11 e2e/workbench.spec.mjs:223:1 › clarification does not enter successful history (907ms)
+  ✓  12 e2e/workbench.spec.mjs:241:1 › editing during generation preserves new draft but result keeps submitted input (994ms)
+
+  12 passed (50.1s)

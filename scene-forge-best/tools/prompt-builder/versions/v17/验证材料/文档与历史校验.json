@@ -1,0 +1,17 @@
+{
+  "result": "pass",
+  "oldArchiveFilesUnchanged": 741,
+  "markdownFiles": 15,
+  "localLinks": 317,
+  "codeBlocks": 12,
+  "tables": 27,
+  "normChapters": 15,
+  "preserved": [
+    "three picture modules",
+    "model registry",
+    "historical example"
+  ],
+  "normSHA256": "4067a3793b2eede98230f6bc0844bd402f40ac46919685837f1a23758870a0be",
+  "realModelTest": "not executed",
+  "imageTest": "not executed"
+}

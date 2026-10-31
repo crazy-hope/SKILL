@@ -1,0 +1,42 @@
+✔ exact visible defaults are real values with one pair and no old aspect override (0.677125ms)
+✔ edited and cleared paragraphs survive reload without default filling (0.453292ms)
+✔ missing fields, old schemas and illegal counts fail closed (0.139125ms)
+✔ old stores are ignored; corrupt current data is untouched and blocks saving (0.099541ms)
+✔ new backup round-trips results and excludes external credential fields (0.274791ms)
+✔ bad bilingual result and mismatched count cannot be saved as history (0.078791ms)
+✔ valid backup can replace corrupt new storage explicitly (0.070084ms)
+✔ download retains original target adaptation source and text provider (0.11775ms)
+✖ model input guidance survives history and download outside the copyable prompt (0.406875ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 8
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 39.610958
+
+✖ failing tests:
+
+test at tools/prompt-builder/versions/v18/tests/model.test.mjs:22:1
+✖ model input guidance survives history and download outside the copyable prompt (0.406875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - '将正向和负向分别粘贴到对应栏位。'
+  
+      at TestContext.<anonymous> (file:///Users/lijundong/ALL/personal/github/SKILL/scene-forge-best/tools/prompt-builder/versions/v18/tests/model.test.mjs:22:184)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: '将正向和负向分别粘贴到对应栏位。',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

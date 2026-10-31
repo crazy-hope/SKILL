@@ -1,0 +1,68 @@
+{
+  "format": "scene-forge-backup-v6",
+  "draft": {
+    "schemaVersion": 6,
+    "style": "16:9横向电影画幅，真人电影实拍级写实，具有90年代东方仙侠和古典神话电影的柔和光学质感，真实人物、真实植物材质、真实雨水，不是现代仙侠滤镜，不是广告摆拍。",
+    "color": "整体色彩以玉绿、冷青、乳白、淡粉为主，雨天环境光偏冷，花瓣透过日光提供暖白柔和的透射光，在人物皮肤和湿润衣料上形成细腻高光。",
+    "camera": "摄影机采用低机位35mm中大全景。",
+    "mood": "画面情绪轻松、亲密、生活化。",
+    "moment": "重点表现一个暂时停顿却仍有目标的瞬间:雨挡住了她们继续追赶，但也让长纱因为吸水变重，不再继续飘远。",
+    "subject": "【模拟主体描述，仅供功能测试】巨型莲池里，一朵乳白莲花下垂的厚软花瓣占据上方，湿润纵纹透出暖白日光。三名年轻古装女子位于花瓣下：左侧女子抬起花瓣，中间女子提起湿润淡青裙摆跨过积水，内侧女子回身伸手。浅粉长纱湿贴在外侧高处的绿色莲茎上；冷青雨幕在外，水滴沿花瓣边缘落下。",
+    "negative": "不要有水印、logo或多余空白黑边；避免非预期的形体变形、结构错位、物体无故穿插或融合；避免主体关键细节缺失、模糊成团、非预期的乱码、噪点和压缩伪影；若画面包含人物，避免手脚扭曲、关节错位、肢体错接、无故多出或缺失肢体、手指粘连及五官错乱；若明确要求整幅画面只有一个人，不要增加其他人物、背景人群或重复人影。以上不排除有意的艺术变形、合理遮挡、景深虚化、颗粒质感和构图留白。",
+    "target": "Midjourney",
+    "count": 1
+  },
+  "history": [
+    {
+      "id": "9733d2fd-b3d7-4760-9e68-a9d760e00773",
+      "createdAt": "2026-10-30T14:25:29.380Z",
+      "status": "ready",
+      "brief": {
+        "schemaVersion": 6,
+        "style": "16:9横向电影画幅，真人电影实拍级写实，具有90年代东方仙侠和古典神话电影的柔和光学质感，真实人物、真实植物材质、真实雨水，不是现代仙侠滤镜，不是广告摆拍。",
+        "color": "整体色彩以玉绿、冷青、乳白、淡粉为主，雨天环境光偏冷，花瓣透过日光提供暖白柔和的透射光，在人物皮肤和湿润衣料上形成细腻高光。",
+        "camera": "摄影机采用低机位35mm中大全景。",
+        "mood": "画面情绪轻松、亲密、生活化。",
+        "moment": "重点表现一个暂时停顿却仍有目标的瞬间:雨挡住了她们继续追赶，但也让长纱因为吸水变重，不再继续飘远。",
+        "subject": "【模拟主体描述，仅供功能测试】巨型莲池里，一朵乳白莲花下垂的厚软花瓣占据上方，湿润纵纹透出暖白日光。三名年轻古装女子位于花瓣下：左侧女子抬起花瓣，中间女子提起湿润淡青裙摆跨过积水，内侧女子回身伸手。浅粉长纱湿贴在外侧高处的绿色莲茎上；冷青雨幕在外，水滴沿花瓣边缘落下。",
+        "negative": "不要有水印、logo或多余空白黑边；避免非预期的形体变形、结构错位、物体无故穿插或融合；避免主体关键细节缺失、模糊成团、非预期的乱码、噪点和压缩伪影；若画面包含人物，避免手脚扭曲、关节错位、肢体错接、无故多出或缺失肢体、手指粘连及五官错乱；若明确要求整幅画面只有一个人，不要增加其他人物、背景人群或重复人影。以上不排除有意的艺术变形、合理遮挡、景深虚化、颗粒质感和构图留白。",
+        "target": "Midjourney",
+        "count": 1
+      },
+      "schemes": [
+        {
+          "title": "模拟方案 1",
+          "zh": "【模拟中文，仅供功能测试】16:9横向电影画幅，真人电影实拍级写实，具有90年代东方仙侠和古典神话电影的柔和光学质感，真实人物、真实植物材质、真实雨水，不是现代仙侠滤镜，不是广告摆拍。\n\n【模拟主体描述，仅供功能测试】巨型莲池里，一朵乳白莲花下垂的厚软花瓣占据上方，湿润纵纹透出暖白日光。三名年轻古装女子位于花瓣下：左侧女子抬起花瓣，中间女子提起湿润淡青裙摆跨过积水，内侧女子回身伸手。浅粉长纱湿贴在外侧高处的绿色莲茎上；冷青雨幕在外，水滴沿花瓣边缘落下。\n\n整体色彩以玉绿、冷青、乳白、淡粉为主，雨天环境光偏冷，花瓣透过日光提供暖白柔和的透射光，在人物皮肤和湿润衣料上形成细腻高光。摄影机采用低机位35mm中大全景。画面情绪轻松、亲密、生活化。重点表现一个暂时停顿却仍有目标的瞬间:雨挡住了她们继续追赶，但也让长纱因为吸水变重，不再继续飘远。",
+          "en": "[Simulated English for interface testing, not a validated translation.] A cinematic live-action scene under a large ivory lotus petal. Three women in pale cyan wet robes shelter from the rain; one lifts the petal, one steps across a flooded vein, and another reaches back to help. A wet pale-pink scarf clings to a green stem outside. Cool rain light contrasts with soft warm light transmitted through the petal. A low-angle 35mm medium-wide shot, calm and intimate."
+        }
+      ],
+      "spec": {
+        "version": "v16",
+        "sha256": "65202f0245304f5914ccbbfc0ab94b6fb6e24beb1d67803c30d5e4ab14b7621f"
+      },
+      "target": {
+        "id": "midjourney",
+        "label": "Midjourney",
+        "requested": "Midjourney",
+        "scope": "Midjourney 文生图；地域采用自然语言，具体地域效果未测试；版本特有功能另核实",
+        "checkedAt": "2026-10-22",
+        "sources": [
+          {
+            "title": "Midjourney · Prompt Basics",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics"
+          },
+          {
+            "title": "Midjourney · Parameter List",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32859204029709-Parameter-List"
+          },
+          {
+            "title": "Midjourney · No",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32173351982093-No"
+          }
+        ]
+      },
+      "provider": "openai",
+      "model": "mock-text-model"
+    }
+  ]
+}

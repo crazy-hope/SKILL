@@ -1,0 +1,7 @@
+{
+  "version": "v8",
+  "created_at_utc": "2026-10-24T19:35:20.311013+00:00",
+  "reason": "保留六段结构，修订效果强度与约束取舍；工作台0.7.0接入Skill v6及模型自检引用核对",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v7"
+}

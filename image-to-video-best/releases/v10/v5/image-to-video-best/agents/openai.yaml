@@ -1,0 +1,6 @@
+interface:
+  display_name: "图生视频提示词导演"
+  short_description: "按六段结构与三档深度编排场景动态、主体交互、镜头和声音，并核对目标模型规则"
+  default_prompt: "使用 $image-to-video-best 分析我提供的图片，确认目标模型后选择合适等级，按六段结构给出图生视频提示词、简短设计原因和必要设置。"
+policy:
+  allow_implicit_invocation: true

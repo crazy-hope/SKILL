@@ -1,0 +1,7 @@
+{
+  "version": "v11",
+  "created_at_utc": "2026-10-26T06:02:15.140455+00:00",
+  "reason": "修复DeepSeek看图服务预设、保存提示与服务回显；网页0.8.1，Skill保持v6",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v10"
+}

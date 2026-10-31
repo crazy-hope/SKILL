@@ -1,0 +1,29 @@
+{
+  "name": "image-to-video-workbench",
+  "version": "0.8.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "vite build",
+    "dev": "vite --host 127.0.0.1",
+    "test:browser": "node test/browser-qa.mjs",
+    "test:refresh": "node test/refresh-qa.mjs",
+    "test:connection": "node test/connection-qa.mjs"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "antd": "^6.6.7",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "prettier": "^3.9.10",
+    "vite": "^8.3.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": "v6",
+  "created_at_utc": "2026-10-24T17:49:24.449315+00:00",
+  "reason": "独立Skill v4采用六段结构，强化场景动态与交互；两组水下材料作为一组学习参考，工作台保持0.5.0并加载v2",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v5"
+}

@@ -1,0 +1,115 @@
+{
+  "effectChecks": [
+    {
+      "requirement": "水下摄影与通透电影观感",
+      "sourceText": "水下摄影，通透水体，电影质感",
+      "promptText": "采用水下摄影观感、通透水体与电影质感，保留青绿水色、柔和水面透射光和纵深层次；主要可见变化落在植物轮廓、飘展衣发、平台浮沉和群像分工上。",
+      "submissionText": "",
+      "note": "以介质、透光、纵深及可读的大尺度动态展开。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "身份、服饰、叶状平台保持",
+      "sourceText": "保持原图人物身份、服饰和叶状平台",
+      "promptText": "保持原图人物身份、服饰和叶状平台，人物自然活动与大面积环境运动同时展开。",
+      "submissionText": "",
+      "note": "保持属性不锁死姿态和材质形变。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "前后景植物全程明显摆动",
+      "sourceText": "前后景植物全程明显摆动，长发与裙摆全程大幅飘动；平台缓慢浮沉。",
+      "promptText": "前后景植物从开始到最后一帧都明显摆动：近处叶片跨过可辨认的摆动范围，叶簇受水流推动后依次回摆；两侧及远处植物的轮廓成片起伏，远景以群落边界变化保持可读，不能只动前景而冻结后景。",
+      "submissionText": "",
+      "note": "覆盖空间范围、幅度及持续时间；刚性岩石不作植物形变。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "长发和裙摆全程大幅飘动",
+      "sourceText": "前后景植物全程明显摆动，长发与裙摆全程大幅飘动；平台缓慢浮沉。",
+      "promptText": "人物已有的披散长发与裙摆全程大幅飘动，直至最后一帧仍保持展开幅度。",
+      "submissionText": "",
+      "note": "保持发髻和服装结构，现有自由端分层运动。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "平台缓慢浮沉",
+      "sourceText": "前后景植物全程明显摆动，长发与裙摆全程大幅飘动；平台缓慢浮沉。",
+      "promptText": "叶状平台全程缓慢浮沉，整体上下位移平滑可见，宽阔承载部分随之升降，柔软叶缘另有可见的起伏形变。",
+      "submissionText": "",
+      "note": "整体速度与叶缘形变分开，人物交替落脚响应承载面。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "群像包含走动嬉戏、坐下、跑动、眺望",
+      "sourceText": "人们自然走动嬉戏，有人坐下、有人跑动、有人眺望。",
+      "promptText": "人们按各自位置自然走动嬉戏，分开承担坐下、跑动和眺望，不让所有人依次执行同一套动作。",
+      "submissionText": "",
+      "note": "后续给出不同人物分工和站姿至坐下的接续。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "相机缓慢后退",
+      "sourceText": "缓慢后退",
+      "promptText": "相机从首帧位置沿观看轴线全程缓慢后退，始终朝向叶状平台与人物群，速度平顺，5秒内不反向、不突然加速或变焦。",
+      "submissionText": "",
+      "note": "用户未要求特写，后退仍保留广角群像。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "环境运动持续至结尾",
+      "sourceText": "环境动态保持到最后",
+      "promptText": "环境动态保持到最后一帧：前后景植物仍明显摆动，长发与裙摆仍大幅飘动，平台仍缓慢浮沉，鱼群沿原有水域继续游动；不因镜头结束而全体收势或降为轻微余动。",
+      "submissionText": "",
+      "note": "强度未在末段降级，主体事件结束不冻结环境。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "只有水下环境音且无配乐",
+      "sourceText": "只有水下环境音，无配乐",
+      "promptText": "只有水下环境音，无配乐、对白或笑声。",
+      "submissionText": "",
+      "note": "音轨保留环境音；具体网页音频控制仍待确认。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "不穿模、不频闪",
+      "sourceText": "不穿模、不频闪",
+      "promptText": "人物路线留出相互通过的空间，衣物保持与身体连接，叶面与承载关系不穿模；透光、高光和阴影随运动连续变化，不频闪、不跳变。",
+      "submissionText": "",
+      "note": "正向路径与连接关系支持动作，不冻结光影。",
+      "source": "user",
+      "status": "self_checked",
+      "issues": []
+    },
+    {
+      "requirement": "坐下、跑动、眺望按可见位置分配给不同人物",
+      "sourceText": "",
+      "promptText": "坐下是从站姿开始的一次事件，跑动与眺望可同时发生，不为排队执行动作而加速；各人的相对位置随实际行动改变，既不穿过同伴，也不锁定首帧姿态。",
+      "submissionText": "",
+      "note": "人物分配和并行动作是导演补全建议，并非用户指定的角色分工。",
+      "source": "design",
+      "status": "self_checked",
+      "issues": []
+    }
+  ],
+  "reviewWarnings": []
+}

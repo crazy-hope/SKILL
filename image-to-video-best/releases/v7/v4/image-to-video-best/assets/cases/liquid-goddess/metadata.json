@@ -1,0 +1,41 @@
+{
+  "case_id": "liquid-goddess",
+  "provided_on": "2026-10-17",
+  "status": "user_reported_stable",
+  "image_file": "source.png",
+  "prompt_file": "original-prompt.txt",
+  "original_filename": "codex-clipboard-606dc8ed-fde4-4b8a-9fb0-6c4214ed3bb5.png",
+  "observed_image": {
+    "width": 1388,
+    "height": 776,
+    "aspect_ratio": 1.788659793814433
+  },
+  "requested_output": {
+    "duration_seconds": 7,
+    "aspect_ratio": "16:9",
+    "resolution": "8K",
+    "fps": 60,
+    "music": false,
+    "ambient_audio": true
+  },
+  "actual_generation": {
+    "model": null,
+    "version": null,
+    "platform": null,
+    "settings": null,
+    "seed": null,
+    "prompt_rewriting": null,
+    "post_processing": null,
+    "video_file": null
+  },
+  "verification": {
+    "image_bytes_compared_to_attachment": true,
+    "video_independently_viewed": false,
+    "generation_reproduced": false,
+    "prompt_capture": "User message text preserved; final newline normalized"
+  },
+  "sha256": {
+    "source.png": "ffdcf89c6c21cff35cf1ad180b69b964625e328004f8f49eaef8dd9cdf94d984",
+    "original-prompt.txt": "4a62458078e9949732332a51b3770551dfff120dcc9428d36ebfb7120485aa03"
+  }
+}

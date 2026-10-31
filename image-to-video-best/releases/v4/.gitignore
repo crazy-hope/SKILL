@@ -1,0 +1,12 @@
+# Local credentials and generated state are never versioned.
+.env
+.env.*
+!.env.example
+.local-connection.json
+.local-connection.json.*.tmp
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+releases/.draft-*/

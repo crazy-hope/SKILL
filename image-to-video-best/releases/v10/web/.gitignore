@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+*.log
+.DS_Store
+
+.local-connection.json
+.local-connection.json.*.tmp

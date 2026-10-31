@@ -1,0 +1,11 @@
+{
+  "status": "ready",
+  "level": "detailed",
+  "designReason": "测试夹具：以现有手臂姿态接续，固定镜头保持流体与主体可读。",
+  "prompt": "测试夹具，不是真实模型生成：0—2秒人物缓慢抬手，2—5秒流体持续轻柔回旋，5—7秒人物收势，发丝保持轻摆。",
+  "submissionPrompt": "测试夹具：人物缓慢抬手，流体回旋，最后收势。",
+  "settings": [{"name":"时长","value":"7秒","status":"用户目标"}],
+  "uncertainties": ["本次使用离线资料，未核实当前平台。"],
+  "omissions": ["提交版合并了动作阶段。"],
+  "clarificationQuestions": []
+}

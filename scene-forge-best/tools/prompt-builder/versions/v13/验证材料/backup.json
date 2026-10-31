@@ -1,0 +1,241 @@
+{
+  "format": "scene-forge-backup-v3",
+  "draft": {
+    "题材": "云上天宫",
+    "元素": "白鹿；仙女",
+    "视觉偏好": "",
+    "镜头": "",
+    "风格与复杂度": "",
+    "构图": "",
+    "目标模型": "Midjourney",
+    "画幅": "9:16",
+    "数量": "10条",
+    "大致说明": "",
+    "负面提示词": "",
+    "地域": "中国",
+    "schemaVersion": 3,
+    "elementSettings": [
+      {
+        "name": "仙女",
+        "role": "自动",
+        "scale": "自动",
+        "frame": "自动",
+        "count": "自动",
+        "action": "缓步",
+        "position": "自动",
+        "depth": "自动",
+        "relation": "自动",
+        "gender": "女性",
+        "target": ""
+      }
+    ],
+    "designOptions": {
+      "exploration": "自动设计",
+      "selectionMode": "全部包含",
+      "allowExtra": false
+    }
+  },
+  "presets": [
+    {
+      "id": "95a1b008-2b15-4af5-9b2b-062cdb01348a",
+      "name": "React验证预设",
+      "brief": {
+        "题材": "云上天宫",
+        "元素": "白鹿；仙女",
+        "视觉偏好": "",
+        "镜头": "",
+        "风格与复杂度": "",
+        "构图": "",
+        "目标模型": "Midjourney",
+        "画幅": "9:16",
+        "数量": "10条",
+        "大致说明": "",
+        "负面提示词": "",
+        "地域": "中国",
+        "schemaVersion": 3,
+        "elementSettings": [
+          {
+            "name": "仙女",
+            "role": "自动",
+            "scale": "自动",
+            "frame": "自动",
+            "count": "自动",
+            "action": "缓步",
+            "position": "自动",
+            "depth": "自动",
+            "relation": "自动",
+            "gender": "女性",
+            "target": ""
+          }
+        ],
+        "designOptions": {
+          "exploration": "自动设计",
+          "selectionMode": "全部包含",
+          "allowExtra": false
+        }
+      }
+    }
+  ],
+  "history": [
+    {
+      "id": "b2e49770-9e81-4ebb-9309-6ae4bc73e385",
+      "createdAt": "2026-10-24T20:24:12.101Z",
+      "status": "ready",
+      "spec": {
+        "version": "v10",
+        "sha256": "0b96d763db37f2cb677762c293f5b873cf93c92c7546b715f0a7609e15ce6645"
+      },
+      "provider": "openai",
+      "model": "mock-text-model",
+      "brief": {
+        "题材": "云上天宫",
+        "元素": "白鹿；仙女",
+        "视觉偏好": "",
+        "镜头": "",
+        "风格与复杂度": "",
+        "构图": "",
+        "目标模型": "Midjourney",
+        "画幅": "9:16",
+        "数量": "10条",
+        "大致说明": "",
+        "负面提示词": "",
+        "地域": "中国",
+        "schemaVersion": 3,
+        "elementSettings": [
+          {
+            "name": "仙女",
+            "role": "自动",
+            "scale": "自动",
+            "frame": "自动",
+            "count": "自动",
+            "action": "缓步",
+            "position": "自动",
+            "depth": "自动",
+            "relation": "自动",
+            "gender": "女性",
+            "target": ""
+          }
+        ],
+        "designOptions": {
+          "exploration": "自动设计",
+          "selectionMode": "全部包含",
+          "allowExtra": false
+        }
+      },
+      "schemes": [
+        {
+          "name": "模拟测试 01 · 云庭眺望与清晨天光",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 1，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 1 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 02 · 高架车站与列车进站",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 2，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 2 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 03 · 雨后夜市与行人穿行",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 3，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 3 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 04 · 街头机械师维修摩托",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 4，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 4 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 05 · 城市河道与巡检设备",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 5，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 5 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 06 · 全息鱼灯与街区巡游",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 6，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 6 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 07 · 屋顶调度员与无人机",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 7，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 7 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 08 · 楼体广告与检修平台",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 8，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 8 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 09 · 地下赛车与维修车间",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 9，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 9 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        },
+        {
+          "name": "模拟测试 10 · 垂直街区与快递员送货",
+          "concept": "用于验证页面数据流的固定样例，不是真实模型生成。",
+          "specs": "16:9；侧后方中远景；人物位于左侧三分线；清晨冷灰与局部暖光。",
+          "zh": "模拟方案 10，仅用于交互验证。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。\n\n东方天界幻想，一位仙女立于宋代风格木构殿阁的临崖露台，侧身眺望云海。古松从岩壁探出，远处瀑布穿过云层。侧后方中远景，仙女位于左侧三分线，宽阔云海向右展开。清晨冷灰天光中，一束暖光掠过衣袖与木栏。写实电影感，细腻木纹、岩石和丝绸质感。16:9 横向画面。",
+          "en": "Mock scheme 10 for UI verification only.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.\n\nAn Eastern celestial fantasy: a celestial maiden stands on a cliffside terrace of a Song-dynasty-style timber pavilion, gazing sideways over a sea of clouds. An old pine reaches out from the rock face, and a distant waterfall descends through the clouds. A medium-long shot from slightly behind her side places her on the left third, with the vast cloud sea opening to the right. Cool gray dawn light is accented by a warm beam grazing her sleeve and the wooden railing. Cinematic realism with detailed wood, stone and silk textures. A horizontal 16:9 composition.",
+          "config": "模拟测试未核实参数。在出图平台设置 16:9。",
+          "checks": "模拟样例仅验证双语展示；真实生成后检查建筑特征、人物与环境关系。"
+        }
+      ],
+      "target": {
+        "id": "midjourney",
+        "label": "Midjourney",
+        "requested": "Midjourney",
+        "scope": "Midjourney 文生图；地域采用自然语言，具体地域效果未测试；版本特有功能另核实",
+        "checkedAt": "2026-10-22",
+        "notice": "按模型家族规则适配；具体版本、运行平台与参数仍需核实。本次未联网读取来源页面。",
+        "sources": [
+          {
+            "title": "Midjourney · Prompt Basics",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics"
+          },
+          {
+            "title": "Midjourney · Parameter List",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32859204029709-Parameter-List"
+          },
+          {
+            "title": "Midjourney · No",
+            "url": "https://docs.midjourney.com/hc/en-us/articles/32173351982093-No"
+          }
+        ]
+      }
+    }
+  ]
+}

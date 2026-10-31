@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "historical_files_unchanged": 385,
+  "markdown_files": 10,
+  "local_links": 209,
+  "spec_sha256": "0b96d763db37f2cb677762c293f5b873cf93c92c7546b715f0a7609e15ce6645",
+  "built_files": {
+    "输出/dist/index.html": "e88eb2af14dd419ce63e323b14e06f653079cd6fb11db05b5b8bdd043883df4f",
+    "输出/dist/assets/index-x-p4CW0R.js": "4247b1cbff6f89d1d5f50cb97416145846d57e183b0dbaaf5c48de7a075c3e68",
+    "输出/dist/assets/index-Chx1adzQ.css": "f82829acb2942a143dce9513b19a9293751b2712003aad8b80b32c2283788f3a"
+  },
+  "tests": {
+    "node": 27,
+    "react": 6,
+    "python": 41,
+    "browser": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "role": "one learning reference collection; not independent validation cases",
+  "source": "本会话用户提供的两张图片与对应提示词",
+  "user_feedback": "用户表示使用可灵O3生成的视频效果特别好",
+  "correction": "用户明确：两组材料有参考与学习意义，不能算独立案例；结构按所提供提示词",
+  "evidence_available": [
+    "两张原图",
+    "图1长版及单行精简版原文",
+    "图2长版原文",
+    "用户效果反馈"
+  ],
+  "unknown": [
+    "成片",
+    "实际提交长版或单行版",
+    "生成时长",
+    "平台入口及参数",
+    "重复生成结果"
+  ],
+  "preservation": "图片逐字节复制；提示词原句与段落保留，文件统一末尾换行；不覆盖原文进行纠错",
+  "files": {
+    "image-1.png": "e1dfe76a38ea256394fff6abf978f686433c9253d5a4fa08d7ee7214cc85d4d1",
+    "image-2.webp": "85c5924e397407125cacbc3104d4e4deb8a9691e046d9b853e0ec4da83b74532",
+    "original-prompts.md": "1703186bb3e12e78c55f60392156149b9f9881b52146bede9bc5703054b2a2f2"
+  }
+}

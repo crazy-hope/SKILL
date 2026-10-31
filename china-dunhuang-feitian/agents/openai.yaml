@@ -1,4 +1,0 @@
-interface:
-  display_name: "中国敦煌飞天"
-  short_description: "融合敦煌壁画、工笔重彩与飞天乐舞，创作人物视觉和系列绘图提示词"
-  default_prompt: "使用 $china-dunhuang-feitian 创作一组配色统一、姿态不同的中国敦煌飞天绘图提示词。"

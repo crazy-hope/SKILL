@@ -1,0 +1,7 @@
+{
+  "version": "v3",
+  "created_at_utc": "2026-10-17T09:01:41.010496+00:00",
+  "reason": "独立规范Skill v3：分析图片内容、题材、画风与融合并自动构思提示词；工作台保持0.3.0与Skill v2不变",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v2"
+}

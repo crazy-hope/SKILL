@@ -1,6 +1,0 @@
-interface:
-  display_name: "东方天界电影巨构导演"
-  short_description: "生成明亮仙境、空明庄严的东方古建电影巨构"
-  default_prompt: "Use $oriental-celestial-cinema-director 以明亮仙境默认色光随机生成一幅东方天界古建巨构电影场景，并在需要时提供其他色光模式。"
-policy:
-  allow_implicit_invocation: true

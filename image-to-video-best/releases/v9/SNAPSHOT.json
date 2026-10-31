@@ -1,0 +1,7 @@
+{
+  "version": "v9",
+  "created_at_utc": "2026-10-25T03:14:18.923058+00:00",
+  "reason": "修复刷新时浏览器扩展与工作台主题缓存冲突，网页0.7.1保持Skill v6",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v8"
+}

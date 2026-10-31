@@ -1,0 +1,26 @@
+{
+  "version": "v6",
+  "videoModel": "kling-o3",
+  "level": "detailed",
+  "duration": 5,
+  "idea": "希望整个水下秘境有明显流动感，镜头缓慢后退。",
+  "platform": "快手可灵网页",
+  "aspectRatio": "original",
+  "details": {
+    "mood": "水下摄影，通透水体，电影质感",
+    "action": "人们自然走动嬉戏，有人坐下、有人跑动、有人眺望。",
+    "camera": "缓慢后退",
+    "environment": "前后景植物全程明显摆动，长发与裙摆全程大幅飘动；平台缓慢浮沉。",
+    "gesture": "",
+    "ending": "环境动态保持到最后",
+    "sound": "只有水下环境音，无配乐",
+    "preserve": "保持原图人物身份、服饰和叶状平台",
+    "avoid": "不穿模、不频闪"
+  },
+  "imageInfo": {
+    "width": 2960,
+    "height": 1648,
+    "mime": "image/png",
+    "bytes": 7824830
+  }
+}

@@ -1,0 +1,6 @@
+输出/node_modules/
+输出/.vite/
+输出/test-results/
+输出/playwright-report/
+__pycache__/
+*.pyc

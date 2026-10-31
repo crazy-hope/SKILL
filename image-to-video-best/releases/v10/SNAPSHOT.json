@@ -1,0 +1,7 @@
+{
+  "version": "v10",
+  "created_at_utc": "2026-10-26T01:23:38.377915+00:00",
+  "reason": "工作台0.8.0默认10镜头，短请求异步任务实现10路同时生成，保留独立取消重试与结果隔离",
+  "scope": "Complete project source snapshot; credentials excluded",
+  "previous": "v9"
+}

@@ -1,0 +1,11 @@
+id,title,url,observed_votes,evidence,visual_verified,confound
+1,Cinematic cities,https://www.reddit.com/r/midjourney/comments/19c22hq/,,author_comment,false,film still references and describe workflow
+2,Cat model comparison,https://www.reddit.com/r/midjourney/comments/18qgwd1/,,author_comment,false,multiple model versions
+3,The Movie Scene,https://www.reddit.com/r/midjourney/comments/1vl6rag/,,author_comment,false,unknown personalization profile
+4,Miniature baking,https://www.reddit.com/r/midjourney/comments/1j3n7kx/,295,indexed_post_and_author_prompts,false,video pipeline
+5,Tiny Knights,https://www.reddit.com/r/midjourney/comments/1kycjnu/,1632,indexed_votes_and_opened_author_prompts,false,video and prompt generation tool
+6,Tiny Friends,https://www.reddit.com/r/midjourney/comments/1jy9pn8/,140,indexed_post_and_author_prompts,false,video and same creator ecosystem
+7,Colonial miniature city,https://www.reddit.com/r/midjourney/comments/1juqc3q/,17,indexed_post_and_author_comment,false,many generations and video
+8,Fall weather,https://www.reddit.com/r/midjourney/comments/1fia2or/,54,indexed_post_and_author_comment,false,settings varied
+9,The Last of Us miniatures,https://www.reddit.com/r/midjourney/comments/16cx1jl/,1159,indexed_post_and_author_comment,false,known franchise and selected results
+10,Miniature villages,https://www.reddit.com/r/midjourney/comments/1ftfub4/,189,indexed_post_and_author_comment,false,stylize varied

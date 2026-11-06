@@ -1,0 +1,10 @@
+{
+  "version": "v8",
+  "hash": "f4618c1b12966d45fe92cc9d2b53078ad87d78ef800c3b6cb2b690e0d374796e",
+  "files": {
+    "SKILL.md": "fcd306701f768e89e7c20eb984cb727d887486b74d55d5867925cc1a73cf9258",
+    "references/creative-engine.md": "9215e90db6e7a9f6c65e5afe463a3cbab2a6663bdfe993ba501dbcbd066fcff3",
+    "references/midjourney.md": "8bad6dead35d69e4c558ced19a2e5b53b7f773b90772e69572df256221b11597",
+    "references/visual-direction.md": "29411693315347b6eb5ff89316d7d37850195998dcf57abc195b372b9bab6a19"
+  }
+}
